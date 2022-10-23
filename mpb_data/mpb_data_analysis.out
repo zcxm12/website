@@ -1,0 +1,2644 @@
+/home/mark/anaconda3/envs/mp/lib/python3.10/site-packages/numpy/core/getlimits.py:499: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+  setattr(self, word, getattr(machar, word).flat[0])
+/home/mark/anaconda3/envs/mp/lib/python3.10/site-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+  return self._float_to_str(self.smallest_subnormal)
+/home/mark/anaconda3/envs/mp/lib/python3.10/site-packages/numpy/core/getlimits.py:499: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+  setattr(self, word, getattr(machar, word).flat[0])
+/home/mark/anaconda3/envs/mp/lib/python3.10/site-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+  return self._float_to_str(self.smallest_subnormal)
+Initializing eigensolver data
+Computing 8 bands with 1e-07 tolerance
+Working in 2 dimensions.
+Grid size is 32 x 32 x 1.
+Solving for 8 bands at a time.
+Creating Maxwell data...
+Mesh size is 3.
+Lattice vectors:
+     (0.866025, 0.5, 0)
+     (0.866025, -0.5, 0)
+     (0, 0, 1)
+Cell volume = 0.866025
+Reciprocal lattice vectors (/ 2 pi):
+     (0.57735, 1, -0)
+     (0.57735, -1, 0)
+     (-0, 0, 1)
+Geometric objects:
+     cylinder, center = (0,0,0)
+          radius 0.2, height 1e+20, axis (0, 0, 1)
+Geometric object tree has depth 1 and 1 object nodes (vs. 1 actual objects)
+Initializing epsilon function...
+Allocating fields...
+Solving for band polarization: tm.
+Initializing fields to random numbers...
+16 k-points
+  Vector3<0.0, 0.0, 0.0>
+  Vector3<0.0, 0.1, 0.0>
+  Vector3<0.0, 0.2, 0.0>
+  Vector3<0.0, 0.30000000000000004, 0.0>
+  Vector3<0.0, 0.4, 0.0>
+  Vector3<0.0, 0.5, 0.0>
+  Vector3<-0.06666666666666667, 0.4666666666666667, 0.0>
+  Vector3<-0.13333333333333333, 0.43333333333333335, 0.0>
+  Vector3<-0.2, 0.39999999999999997, 0.0>
+  Vector3<-0.26666666666666666, 0.36666666666666664, 0.0>
+  Vector3<-0.3333333333333333, 0.3333333333333333, 0.0>
+  Vector3<-0.26666666666666666, 0.26666666666666666, 0.0>
+  Vector3<-0.19999999999999998, 0.19999999999999998, 0.0>
+  Vector3<-0.1333333333333333, 0.1333333333333333, 0.0>
+  Vector3<-0.06666666666666665, 0.06666666666666665, 0.0>
+  Vector3<0.0, 0.0, 0.0>
+elapsed time for initialization: 0.0014829635620117188
+solve_kpoint (0,0,0):
+tmfreqs:, k index, k1, k2, k3, kmag/2pi, tm band 1, tm band 2, tm band 3, tm band 4, tm band 5, tm band 6, tm band 7, tm band 8
+Solving for bands 2 to 8...
+    near maximum in trace
+    linmin: converged after 8 iterations.
+    iteration    1: trace = 13.50410668936341 (196.2% change)
+    linmin: converged after 5 iterations.
+    iteration    2: trace = 5.436091606122545 (85.1946% change)
+    linmin: converged after 5 iterations.
+    iteration    3: trace = 4.955950955469355 (9.24054% change)
+    linmin: converged after 5 iterations.
+    iteration    4: trace = 4.828437162599244 (2.60647% change)
+    linmin: converged after 5 iterations.
+    iteration    5: trace = 4.739562523969246 (1.85775% change)
+    linmin: converged after 5 iterations.
+    iteration    6: trace = 4.64486605936568 (2.01816% change)
+    linmin: converged after 5 iterations.
+    iteration    7: trace = 4.596444802600148 (1.04793% change)
+    linmin: converged after 3 iterations.
+    iteration    8: trace = 4.586253345952392 (0.221971% change)
+    linmin: converged after 4 iterations.
+    iteration    9: trace = 4.581173369490404 (0.110827% change)
+    linmin: converged after 4 iterations.
+    iteration   10: trace = 4.578844559632431 (0.0508473% change)
+    linmin: converged after 4 iterations.
+    iteration   11: trace = 4.578221845747379 (0.0136007% change)
+    linmin: converged after 4 iterations.
+    iteration   12: trace = 4.578002828473682 (0.00478401% change)
+    linmin: converged after 2 iterations.
+    iteration   13: trace = 4.577922216846927 (0.00176086% change)
+    linmin: converged after 2 iterations.
+    iteration   14: trace = 4.577902221536781 (0.000436778% change)
+    linmin: converged after 2 iterations.
+    iteration   15: trace = 4.577896179138124 (0.000131991% change)
+    linmin: converged after 2 iterations.
+    iteration   16: trace = 4.577894881113165 (2.83542e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   17: trace = 4.577894679268636 (4.40911e-06% change)
+Finished solving for bands 2 to 8 after 17 iterations.
+tmfreqs:, 1, 0, 0, 0, 0, 0, 0.560518, 0.560561, 0.593296, 0.837451, 0.837595, 0.994129, 1.09832
+elapsed time for k point: 0.12903118133544922
+solve_kpoint (0,0.1,0):
+Solving for bands 1 to 8...
+    linmin: converged after 3 iterations.
+    iteration    1: trace = 4.573598636839749 (1.05915% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 4.553362342722601 (0.44344% change)
+    linmin: converged after 3 iterations.
+    iteration    3: trace = 4.549199080715523 (0.0914745% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 4.547235784420225 (0.0431663% change)
+    linmin: converged after 4 iterations.
+    iteration    5: trace = 4.546720474546222 (0.011333% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 4.546675789936023 (0.000982793% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 4.546668809047974 (0.000153538% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 4.546667473391765 (2.93766e-05% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 4.546667093638977 (8.35233e-06% change)
+Finished solving for bands 1 to 8 after 9 iterations.
+tmfreqs:, 2, 0, 0.1, 0, 0.11547, 0.0711319, 0.538981, 0.559429, 0.617095, 0.834123, 0.839462, 0.988272, 1.08637
+elapsed time for k point: 0.033040523529052734
+solve_kpoint (0,0.2,0):
+Solving for bands 1 to 8...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 4.480131817985854 (1.02385% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 4.462944659084235 (0.384368% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 4.458416014204508 (0.101524% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 4.456998078945144 (0.0318086% change)
+    linmin: converged after 4 iterations.
+    iteration    5: trace = 4.456802331492319 (0.00439201% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 4.456776717042908 (0.000574729% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 4.456772279681554 (9.95644e-05% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 4.456771848299351 (9.67925e-06% change)
+Finished solving for bands 1 to 8 after 8 iterations.
+tmfreqs:, 3, 0, 0.2, 0, 0.23094, 0.138898, 0.508574, 0.556587, 0.65398, 0.825087, 0.84452, 0.968999, 1.05281
+elapsed time for k point: 0.028833866119384766
+solve_kpoint (0,0.3,0):
+Solving for bands 1 to 8...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 4.372450530693799 (0.692112% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 4.366285658244143 (0.141093% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 4.364948223734613 (0.0306356% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 4.36462681943907 (0.00736357% change)
+    linmin: converged after 2 iterations.
+    iteration    5: trace = 4.364572744499836 (0.00123894% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 4.364566107372621 (0.000152068% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 4.364565316627024 (1.81174e-05% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 4.364565239055851 (1.77729e-06% change)
+Finished solving for bands 1 to 8 after 8 iterations.
+tmfreqs:, 4, 0, 0.3, 0, 0.34641, 0.198939, 0.479631, 0.553145, 0.693119, 0.813353, 0.850964, 0.932869, 1.02598
+elapsed time for k point: 0.029994964599609375
+solve_kpoint (0,0.4,0):
+Solving for bands 1 to 8...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 4.308396225013395 (0.552393% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 4.304883495945752 (0.0815654% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 4.304231397936097 (0.015149% change)
+    linmin: converged after 2 iterations.
+    iteration    4: trace = 4.304101790020493 (0.00301122% change)
+    linmin: converged after 2 iterations.
+    iteration    5: trace = 4.304072510472746 (0.000680273% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 4.304070118217637 (5.55812e-05% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 4.304069984612752 (3.10415e-06% change)
+Finished solving for bands 1 to 8 after 7 iterations.
+tmfreqs:, 5, 0, 0.4, 0, 0.46188, 0.244064, 0.4557, 0.550414, 0.730028, 0.80289, 0.856372, 0.891379, 1.01409
+elapsed time for k point: 0.026139497756958008
+solve_kpoint (0,0.5,0):
+Solving for bands 1 to 8...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 4.287294760332605 (0.514422% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 4.284125141494324 (0.0739578% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 4.283595166603615 (0.0123714% change)
+    linmin: converged after 2 iterations.
+    iteration    4: trace = 4.283502308934666 (0.00216777% change)
+    linmin: converged after 2 iterations.
+    iteration    5: trace = 4.283478598444958 (0.000553532% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 4.283477156069353 (3.3673e-05% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 4.283477078747916 (1.80511e-06% change)
+Finished solving for bands 1 to 8 after 7 iterations.
+tmfreqs:, 6, 0, 0.5, 0, 0.57735, 0.262015, 0.445331, 0.549383, 0.749186, 0.797864, 0.85849, 0.870609, 1.01087
+elapsed time for k point: 0.026328325271606445
+solve_kpoint (-0.0666667,0.466667,0):
+Solving for bands 1 to 8...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 4.276553222683907 (0.530204% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 4.266855832736128 (0.227015% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 4.26488197794288 (0.0462709% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 4.264548399723722 (0.00782182% change)
+    linmin: converged after 2 iterations.
+    iteration    5: trace = 4.264488721981365 (0.0013994% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 4.264476448321243 (0.000287811% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 4.264474782115494 (3.90718e-05% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 4.264474642734091 (3.26843e-06% change)
+Finished solving for bands 1 to 8 after 8 iterations.
+tmfreqs:, 7, -0.0666667, 0.466667, 0, 0.581187, 0.262984, 0.4475, 0.545804, 0.752448, 0.797093, 0.860461, 0.870245, 0.99895
+elapsed time for k point: 0.029371023178100586
+solve_kpoint (-0.133333,0.433333,0):
+Solving for bands 1 to 8...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 4.232489109114699 (0.358171% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 4.229105435357461 (0.0799772% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 4.228655881565481 (0.0106306% change)
+    linmin: converged after 2 iterations.
+    iteration    4: trace = 4.228604975093389 (0.00120385% change)
+    linmin: converged after 2 iterations.
+    iteration    5: trace = 4.228597156191112 (0.000184905% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 4.228595847552203 (3.09474e-05% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 4.228595668499169 (4.23434e-06% change)
+Finished solving for bands 1 to 8 after 7 iterations.
+tmfreqs:, 8, -0.133333, 0.433333, 0, 0.592546, 0.265671, 0.453801, 0.535912, 0.761319, 0.795166, 0.866056, 0.869135, 0.973413
+elapsed time for k point: 0.026929378509521484
+solve_kpoint (-0.2,0.4,0):
+Solving for bands 1 to 8...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 4.198038865660083 (0.248352% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 4.196704784154718 (0.0317837% change)
+    linmin: converged after 2 iterations.
+    iteration    3: trace = 4.196585223029474 (0.00284897% change)
+    linmin: converged after 2 iterations.
+    iteration    4: trace = 4.196578318452023 (0.000164529% change)
+    linmin: converged after 2 iterations.
+    iteration    5: trace = 4.19657786182289 (1.0881e-05% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 4.19657782450143 (8.89331e-07% change)
+Finished solving for bands 1 to 8 after 6 iterations.
+tmfreqs:, 9, -0.2, 0.4, 0, 0.61101, 0.269404, 0.463648, 0.52172, 0.773443, 0.792931, 0.867201, 0.874681, 0.94487
+elapsed time for k point: 0.021001338958740234
+solve_kpoint (-0.266667,0.366667,0):
+Solving for bands 1 to 8...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 4.176560608184301 (0.206218% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 4.175731845739889 (0.0198451% change)
+    linmin: converged after 2 iterations.
+    iteration    3: trace = 4.175658179999417 (0.00176416% change)
+    linmin: converged after 2 iterations.
+    iteration    4: trace = 4.175652342396135 (0.000139801% change)
+    linmin: converged after 2 iterations.
+    iteration    5: trace = 4.175651823528155 (1.2426e-05% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 4.175651765080801 (1.39972e-06% change)
+Finished solving for bands 1 to 8 after 6 iterations.
+tmfreqs:, 10, -0.266667, 0.366667, 0, 0.635959, 0.273, 0.476141, 0.505606, 0.78524, 0.791235, 0.864672, 0.885801, 0.918597
+elapsed time for k point: 0.022210121154785156
+solve_kpoint (-0.333333,0.333333,0):
+Solving for bands 1 to 8...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 4.169192706989413 (0.188263% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 4.168494147455041 (0.0167567% change)
+    linmin: converged after 2 iterations.
+    iteration    3: trace = 4.168418928467005 (0.00180448% change)
+    linmin: converged after 2 iterations.
+    iteration    4: trace = 4.168412151808278 (0.000162572% change)
+    linmin: converged after 2 iterations.
+    iteration    5: trace = 4.168411725529662 (1.02264e-05% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 4.168411690634592 (8.37131e-07% change)
+Finished solving for bands 1 to 8 after 6 iterations.
+tmfreqs:, 11, -0.333333, 0.333333, 0, 0.666667, 0.27469, 0.489984, 0.490239, 0.79072, 0.790832, 0.863041, 0.899109, 0.89925
+elapsed time for k point: 0.022227764129638672
+Fixing e-field (band 1) phase by -1 + -2.06223e-06i; max ampl. = 0.939117
+Fixing e-field (band 2) phase by 2.06223e-06 + -1i; max ampl. = 1.08316
+Fixing e-field (band 3) phase by 1 + 2.06223e-06i; max ampl. = 0.877941
+Fixing e-field (band 4) phase by 1 + 2.06223e-06i; max ampl. = 1.24656
+Fixing e-field (band 5) phase by -2.06223e-06 + 1i; max ampl. = 1.10167
+Fixing e-field (band 6) phase by 1 + 2.06223e-06i; max ampl. = 1.76187
+Fixing e-field (band 7) phase by -1 + -2.06223e-06i; max ampl. = 1.08811
+Fixing e-field (band 8) phase by -1 + -2.06223e-06i; max ampl. = 1.08096
+solve_kpoint (-0.266667,0.266667,0):
+Solving for bands 1 to 8...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 4.201218387143633 (0.720816% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 4.198256258163581 (0.0705313% change)
+    linmin: converged after 2 iterations.
+    iteration    3: trace = 4.197890563319715 (0.00871102% change)
+    linmin: converged after 2 iterations.
+    iteration    4: trace = 4.197857649514358 (0.000784059% change)
+    linmin: converged after 2 iterations.
+    iteration    5: trace = 4.197854429373005 (7.67092e-05% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 4.197854075524685 (8.42927e-06% change)
+Finished solving for bands 1 to 8 after 6 iterations.
+tmfreqs:, 12, -0.266667, 0.266667, 0, 0.533333, 0.2632, 0.47091, 0.51804, 0.764413, 0.795091, 0.864427, 0.896871, 0.932925
+elapsed time for k point: 0.022097110748291016
+solve_kpoint (-0.2,0.2,0):
+Solving for bands 1 to 8...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 4.288244872179969 (0.732715% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 4.283958817843734 (0.0999989% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 4.283371690646165 (0.0137062% change)
+    linmin: converged after 2 iterations.
+    iteration    4: trace = 4.283281442008085 (0.00210698% change)
+    linmin: converged after 2 iterations.
+    iteration    5: trace = 4.283267825166943 (0.000317907% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 4.283266579432839 (2.90837e-05% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 4.283266497838324 (1.90496e-06% change)
+Finished solving for bands 1 to 8 after 7 iterations.
+tmfreqs:, 13, -0.2, 0.2, 0, 0.4, 0.222593, 0.476537, 0.539917, 0.715636, 0.806516, 0.856013, 0.929969, 0.977199
+elapsed time for k point: 0.026998519897460938
+solve_kpoint (-0.133333,0.133333,0):
+Solving for bands 1 to 8...
+    linmin: converged after 3 iterations.
+    iteration    1: trace = 4.420128758718619 (0.818879% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 4.412260720019018 (0.178163% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 4.41063372283412 (0.0368813% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 4.410197903137279 (0.0098816% change)
+    linmin: converged after 2 iterations.
+    iteration    5: trace = 4.410114422161128 (0.00189293% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 4.410103888122514 (0.000238861% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 4.410102421564557 (3.32545e-05% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 4.410102293673312 (2.89996e-06% change)
+Finished solving for bands 1 to 8 after 8 iterations.
+tmfreqs:, 14, -0.133333, 0.133333, 0, 0.266667, 0.15856, 0.501245, 0.552927, 0.666818, 0.82116, 0.846938, 0.963589, 1.03113
+elapsed time for k point: 0.11082291603088379
+solve_kpoint (-0.0666667,0.0666667,0):
+Solving for bands 1 to 8...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 4.563329249693652 (1.02702% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 4.544560536322282 (0.412142% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 4.537741040007312 (0.150171% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 4.535260974244443 (0.0546691% change)
+    linmin: converged after 4 iterations.
+    iteration    5: trace = 4.534595978095714 (0.0146639% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 4.534531476630522 (0.00142244% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 4.534520999897531 (0.000231044% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 4.534518658359618 (5.16381e-05% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 4.534517831443808 (1.8236e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 4.534517685413174 (3.22042e-06% change)
+Finished solving for bands 1 to 8 after 10 iterations.
+tmfreqs:, 15, -0.0666667, 0.0666667, 0, 0.133333, 0.0819275, 0.534465, 0.558896, 0.622523, 0.832982, 0.840137, 0.98638, 1.08149
+elapsed time for k point: 0.07276606559753418
+solve_kpoint (0,0,0):
+Solving for bands 2 to 8...
+    linmin: converged after 3 iterations.
+    iteration    1: trace = 4.620880146122095 (1.44427% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 4.585845924982479 (0.761057% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 4.579348343661807 (0.141788% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 4.578210977834425 (0.0248399% change)
+    linmin: converged after 4 iterations.
+    iteration    5: trace = 4.577956199330377 (0.00556518% change)
+    linmin: converged after 3 iterations.
+    iteration    6: trace = 4.577915094931052 (0.000897881% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 4.577900179005661 (0.000325824% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 4.577895723328432 (9.73302e-05% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 4.577894738437013 (2.15141e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 4.577894647486887 (1.98672e-06% change)
+Finished solving for bands 2 to 8 after 10 iterations.
+tmfreqs:, 16, 0, 0, 0, 0, 0, 0.560518, 0.560561, 0.593296, 0.837451, 0.837595, 0.994129, 1.09832
+elapsed time for k point: 0.03516864776611328
+Band 1 range: 0.0 at Vector3<0.0, 0.0, 0.0> to 0.27469022601674803 at Vector3<-0.3333333333333333, 0.3333333333333333, 0.0>
+Band 2 range: 0.44533108106909747 at Vector3<0.0, 0.5, 0.0> to 0.5605181435628788 at Vector3<0.0, 0.0, 0.0>
+Band 3 range: 0.49023891496896715 at Vector3<-0.3333333333333333, 0.3333333333333333, 0.0> to 0.5605607987104447 at Vector3<0.0, 0.0, 0.0>
+Band 4 range: 0.5932960879790132 at Vector3<0.0, 0.0, 0.0> to 0.7907195975678295 at Vector3<-0.3333333333333333, 0.3333333333333333, 0.0>
+Band 5 range: 0.7908320764965169 at Vector3<-0.3333333333333333, 0.3333333333333333, 0.0> to 0.8374511182679425 at Vector3<0.0, 0.0, 0.0>
+Band 6 range: 0.8375948534061814 at Vector3<0.0, 0.0, 0.0> to 0.8672009266363934 at Vector3<-0.2, 0.39999999999999997, 0.0>
+Band 7 range: 0.8691349976047849 at Vector3<-0.13333333333333333, 0.43333333333333335, 0.0> to 0.9941291103670519 at Vector3<0.0, 0.0, 0.0>
+Band 8 range: 0.8992499096210423 at Vector3<-0.3333333333333333, 0.3333333333333333, 0.0> to 1.098318364307401 at Vector3<0.0, 0.0, 0.0>
+Gap from band 1 (0.27469022601674803) to band 2 (0.44533108106909747), 47.39883483253769%
+Gap from band 3 (0.5605607987104447) to band 4 (0.5932960879790132), 5.674064027557115%
+Gap from band 4 (0.7907195975678295) to band 5 (0.7908320764965169), 0.014223870206949676%
+Gap from band 5 (0.8374511182679425) to band 6 (0.8375948534061814), 0.017161933543268428%
+Gap from band 6 (0.8672009266363934) to band 7 (0.8691349976047849), 0.222776127751515%
+total elapsed time for run: 0.6714491844177246
+done
+real part range: -0.468466 .. 0.936914
+imag part range: -0.811396 .. 0.811396
+real part range: -1.07345 .. 1.07345
+imag part range: -0.936077 .. 0.936512
+real part range: -0.889515 .. 0.984914
+imag part range: -1.0795 .. 1.0795
+real part range: -0.77705 .. 1.24656
+imag part range: -1.08409 .. 1.08409
+real part range: -1.10094 .. 1.10094
+imag part range: -1.07951 .. 1.07827
+real part range: -0.861194 .. 1.72158
+imag part range: -1.49117 .. 1.49117
+real part range: -1.04995 .. 1.06413
+imag part range: -1.01069 .. 1.01069
+real part range: -1.03932 .. 1.03493
+imag part range: -1.08496 .. 1.08496
+Initializing eigensolver data
+Computing 8 bands with 1e-07 tolerance
+Working in 2 dimensions.
+Grid size is 32 x 32 x 1.
+Solving for 8 bands at a time.
+Creating Maxwell data...
+Mesh size is 3.
+Lattice vectors:
+     (0.866025, 0.5, 0)
+     (0.866025, -0.5, 0)
+     (0, 0, 1)
+Cell volume = 0.866025
+Reciprocal lattice vectors (/ 2 pi):
+     (0.57735, 1, -0)
+     (0.57735, -1, 0)
+     (-0, 0, 1)
+Geometric objects:
+     cylinder, center = (0,0,0)
+          radius 0.2, height 1e+20, axis (0, 0, 1)
+Geometric object tree has depth 1 and 1 object nodes (vs. 1 actual objects)
+Initializing epsilon function...
+Solving for band polarization: te.
+Initializing fields to random numbers...
+16 k-points
+  Vector3<0.0, 0.0, 0.0>
+  Vector3<0.0, 0.1, 0.0>
+  Vector3<0.0, 0.2, 0.0>
+  Vector3<0.0, 0.30000000000000004, 0.0>
+  Vector3<0.0, 0.4, 0.0>
+  Vector3<0.0, 0.5, 0.0>
+  Vector3<-0.06666666666666667, 0.4666666666666667, 0.0>
+  Vector3<-0.13333333333333333, 0.43333333333333335, 0.0>
+  Vector3<-0.2, 0.39999999999999997, 0.0>
+  Vector3<-0.26666666666666666, 0.36666666666666664, 0.0>
+  Vector3<-0.3333333333333333, 0.3333333333333333, 0.0>
+  Vector3<-0.26666666666666666, 0.26666666666666666, 0.0>
+  Vector3<-0.19999999999999998, 0.19999999999999998, 0.0>
+  Vector3<-0.1333333333333333, 0.1333333333333333, 0.0>
+  Vector3<-0.06666666666666665, 0.06666666666666665, 0.0>
+  Vector3<0.0, 0.0, 0.0>
+elapsed time for initialization: 0.0038156509399414062
+solve_kpoint (0,0,0):
+tefreqs:, k index, k1, k2, k3, kmag/2pi, te band 1, te band 2, te band 3, te band 4, te band 5, te band 6, te band 7, te band 8
+Solving for bands 2 to 8...
+    near maximum in trace
+    linmin: converged after 8 iterations.
+    iteration    1: trace = 17.53765186562503 (194.977% change)
+    linmin: converged after 6 iterations.
+    iteration    2: trace = 7.730259690336609 (77.6272% change)
+    linmin: converged after 5 iterations.
+    iteration    3: trace = 6.709581791687159 (14.137% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 6.430015918771028 (4.25532% change)
+    linmin: converged after 4 iterations.
+    iteration    5: trace = 6.330610043117408 (1.55801% change)
+    linmin: converged after 3 iterations.
+    iteration    6: trace = 6.288932453576794 (0.660525% change)
+    linmin: converged after 4 iterations.
+    iteration    7: trace = 6.262688697369867 (0.418173% change)
+    linmin: converged after 4 iterations.
+    iteration    8: trace = 6.247728174427572 (0.239169% change)
+    linmin: converged after 4 iterations.
+    iteration    9: trace = 6.23802449375668 (0.155436% change)
+    linmin: converged after 4 iterations.
+    iteration   10: trace = 6.231020358839065 (0.112344% change)
+    linmin: converged after 4 iterations.
+    iteration   11: trace = 6.22627060836769 (0.0762566% change)
+    linmin: converged after 4 iterations.
+    iteration   12: trace = 6.222175442652215 (0.065794% change)
+    linmin: converged after 4 iterations.
+    iteration   13: trace = 6.218999856638189 (0.0510496% change)
+    linmin: converged after 4 iterations.
+    iteration   14: trace = 6.21628867431439 (0.0436047% change)
+    linmin: converged after 4 iterations.
+    iteration   15: trace = 6.21346050640774 (0.0455064% change)
+    linmin: converged after 4 iterations.
+    iteration   16: trace = 6.210907256395924 (0.0411007% change)
+    linmin: converged after 3 iterations.
+    iteration   17: trace = 6.208446112866808 (0.039634% change)
+    linmin: converged after 3 iterations.
+    iteration   18: trace = 6.206823392705875 (0.0261407% change)
+    linmin: converged after 3 iterations.
+    iteration   19: trace = 6.205998662288425 (0.0132884% change)
+    linmin: converged after 3 iterations.
+    iteration   20: trace = 6.205651846571399 (0.00558855% change)
+    linmin: converged after 2 iterations.
+    iteration   21: trace = 6.205538707963277 (0.00182317% change)
+    linmin: converged after 2 iterations.
+    iteration   22: trace = 6.205479115557386 (0.000960315% change)
+    linmin: converged after 2 iterations.
+    iteration   23: trace = 6.205435367261262 (0.000704997% change)
+    linmin: converged after 2 iterations.
+    iteration   24: trace = 6.205403162911274 (0.000518971% change)
+    linmin: converged after 2 iterations.
+    iteration   25: trace = 6.205382080869597 (0.000339737% change)
+    linmin: converged after 2 iterations.
+    iteration   26: trace = 6.20537088081486 (0.00018049% change)
+    linmin: converged after 2 iterations.
+    iteration   27: trace = 6.205362980940156 (0.000127307% change)
+    linmin: converged after 2 iterations.
+    iteration   28: trace = 6.20535535353891 (0.000122916% change)
+    linmin: converged after 2 iterations.
+    iteration   29: trace = 6.205348350715727 (0.000112851% change)
+    linmin: converged after 2 iterations.
+    iteration   30: trace = 6.205343351403479 (8.05646e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   31: trace = 6.205340874197891 (3.99205e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   32: trace = 6.205339478719766 (2.24883e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   33: trace = 6.205338569796867 (1.46474e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   34: trace = 6.205338107882152 (7.44383e-06% change)
+Finished solving for bands 2 to 8 after 34 iterations.
+tefreqs:, 1, 0, 0, 0, 0, 0, 0.561229, 0.793929, 0.794659, 1.03341, 1.03342, 1.11597, 1.11681
+elapsed time for k point: 0.11981701850891113
+solve_kpoint (0,0.1,0):
+Solving for bands 1 to 8...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 6.158499586366173 (1.66179% change)
+    linmin: converged after 3 iterations.
+    iteration    2: trace = 6.098027476718056 (0.986774% change)
+    linmin: converged after 3 iterations.
+    iteration    3: trace = 6.081904984633132 (0.264739% change)
+    linmin: converged after 3 iterations.
+    iteration    4: trace = 6.074379657401836 (0.12381% change)
+    linmin: converged after 3 iterations.
+    iteration    5: trace = 6.072217492326404 (0.0356012% change)
+    linmin: converged after 3 iterations.
+    iteration    6: trace = 6.071225352843832 (0.0163403% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 6.070791857406629 (0.00714042% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 6.070592932906443 (0.0032768% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 6.070504902960981 (0.00145012% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 6.070476223398037 (0.000472442% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 6.070466819966485 (0.000154904% change)
+    linmin: converged after 2 iterations.
+    iteration   12: trace = 6.070462393401953 (7.29197e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   13: trace = 6.070460782065093 (2.65439e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   14: trace = 6.07046033780367 (7.31841e-06% change)
+Finished solving for bands 1 to 8 after 14 iterations.
+tefreqs:, 2, 0, 0.1, 0, 0.11547, 0.101865, 0.559805, 0.79146, 0.793258, 0.992126, 1.02845, 1.09799, 1.1151
+elapsed time for k point: 0.05505514144897461
+solve_kpoint (0,0.2,0):
+Solving for bands 1 to 8...
+    linmin: converged after 3 iterations.
+    iteration    1: trace = 5.879597583008457 (0.61069% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 5.864186492105461 (0.262455% change)
+    linmin: converged after 3 iterations.
+    iteration    3: trace = 5.859436355852948 (0.0810353% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 5.857343795399883 (0.035719% change)
+    linmin: converged after 3 iterations.
+    iteration    5: trace = 5.856603903842593 (0.0126327% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 5.856366142596134 (0.00405979% change)
+    linmin: converged after 3 iterations.
+    iteration    7: trace = 5.856287445355901 (0.0013438% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 5.856257810034374 (0.000506044% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 5.856247639302353 (0.000173673% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 5.856242834573637 (8.20445e-05% change)
+    linmin: converged after 3 iterations.
+    iteration   11: trace = 5.85624067961057 (3.67977e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   12: trace = 5.856239098952673 (2.6991e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   13: trace = 5.85623814359308 (1.63135e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   14: trace = 5.856237865360669 (4.75104e-06% change)
+Finished solving for bands 1 to 8 after 14 iterations.
+tefreqs:, 3, 0, 0.2, 0, 0.23094, 0.202662, 0.555133, 0.784265, 0.784932, 0.925328, 1.01804, 1.06979, 1.11298
+elapsed time for k point: 0.07644891738891602
+solve_kpoint (0,0.3,0):
+Solving for bands 1 to 8...
+    linmin: converged after 3 iterations.
+    iteration    1: trace = 5.688345650642514 (0.328006% change)
+    linmin: converged after 3 iterations.
+    iteration    2: trace = 5.682025911131011 (0.111162% change)
+    linmin: converged after 3 iterations.
+    iteration    3: trace = 5.68015487077869 (0.0329345% change)
+    linmin: converged after 2 iterations.
+    iteration    4: trace = 5.679577866731339 (0.0101588% change)
+    linmin: converged after 2 iterations.
+    iteration    5: trace = 5.67938151878031 (0.00345715% change)
+    linmin: converged after 3 iterations.
+    iteration    6: trace = 5.679338596246511 (0.000755764% change)
+    linmin: converged after 3 iterations.
+    iteration    7: trace = 5.679327157516282 (0.00020141% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 5.679321580660534 (9.81958e-05% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 5.67931873082225 (5.01792e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 5.679317082305496 (2.90267e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 5.679316534788301 (9.64055e-06% change)
+Finished solving for bands 1 to 8 after 11 iterations.
+tefreqs:, 4, 0, 0.3, 0, 0.34641, 0.300756, 0.545003, 0.752836, 0.776604, 0.881528, 1.00851, 1.04494, 1.1117
+elapsed time for k point: 0.03670930862426758
+solve_kpoint (0,0.4,0):
+Solving for bands 1 to 8...
+    linmin: converged after 3 iterations.
+    iteration    1: trace = 5.572186951662157 (0.242036% change)
+    linmin: converged after 3 iterations.
+    iteration    2: trace = 5.568603727314452 (0.0643262% change)
+    linmin: converged after 3 iterations.
+    iteration    3: trace = 5.567659182879463 (0.0169634% change)
+    linmin: converged after 2 iterations.
+    iteration    4: trace = 5.567444869510128 (0.00384933% change)
+    linmin: converged after 2 iterations.
+    iteration    5: trace = 5.567378032876264 (0.0012005% change)
+    linmin: converged after 3 iterations.
+    iteration    6: trace = 5.567363747135909 (0.000256598% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 5.567360152986932 (6.45575e-05% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 5.567358446927972 (3.0644e-05% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 5.567357589526866 (1.54005e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 5.567357133396321 (8.19295e-06% change)
+Finished solving for bands 1 to 8 after 10 iterations.
+tefreqs:, 5, 0, 0.4, 0, 0.46188, 0.392756, 0.521577, 0.705571, 0.77011, 0.86865, 1.00251, 1.02766, 1.11107
+elapsed time for k point: 0.10937356948852539
+solve_kpoint (0,0.5,0):
+Solving for bands 1 to 8...
+    linmin: converged after 3 iterations.
+    iteration    1: trace = 5.532738562427935 (0.208672% change)
+    linmin: converged after 2 iterations.
+    iteration    2: trace = 5.530094785386327 (0.0477957% change)
+    linmin: converged after 2 iterations.
+    iteration    3: trace = 5.529443011511181 (0.0117866% change)
+    linmin: converged after 2 iterations.
+    iteration    4: trace = 5.529317966416528 (0.00226147% change)
+    linmin: converged after 2 iterations.
+    iteration    5: trace = 5.529282473099322 (0.000641913% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 5.529274256941321 (0.000148594% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 5.529272288140707 (3.56069e-05% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 5.529271635594915 (1.18017e-05% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 5.529271454280513 (3.27917e-06% change)
+Finished solving for bands 1 to 8 after 9 iterations.
+tefreqs:, 6, 0, 0.5, 0, 0.57735, 0.468428, 0.473072, 0.683225, 0.767661, 0.866987, 1.00052, 1.02137, 1.11088
+elapsed time for k point: 0.033333778381347656
+solve_kpoint (-0.0666667,0.466667,0):
+Solving for bands 1 to 8...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 5.538977706657077 (0.141208% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 5.534543158569903 (0.0800928% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 5.53328434448591 (0.0227473% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 5.532629773822814 (0.0118304% change)
+    linmin: converged after 2 iterations.
+    iteration    5: trace = 5.532342338118047 (0.00519542% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 5.532236512372473 (0.00191287% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 5.532184627519929 (0.000937868% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 5.532165299200098 (0.00034938% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 5.532157003582579 (0.000149953% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 5.532154382419513 (4.73805e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 5.532153856129505 (9.51329e-06% change)
+Finished solving for bands 1 to 8 after 11 iterations.
+tefreqs:, 7, -0.0666667, 0.466667, 0, 0.581187, 0.472654, 0.474197, 0.67604, 0.772695, 0.866879, 0.969813, 1.05066, 1.11081
+elapsed time for k point: 0.043004751205444336
+solve_kpoint (-0.133333,0.433333,0):
+Solving for bands 1 to 8...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 5.545518072411082 (0.156539% change)
+    linmin: converged after 3 iterations.
+    iteration    2: trace = 5.539704717254564 (0.104885% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 5.537423974587961 (0.0411793% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 5.535869046383372 (0.0280843% change)
+    linmin: converged after 4 iterations.
+    iteration    5: trace = 5.535105778300798 (0.0137886% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 5.534839156999927 (0.00481703% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 5.53473525150605 (0.00187732% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 5.534709293797555 (0.000468997% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 5.534699678944236 (0.000173719% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 5.534696884773029 (5.04846e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 5.534696297318991 (1.0614e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   12: trace = 5.534696086006859 (3.81795e-06% change)
+Finished solving for bands 1 to 8 after 12 iterations.
+tefreqs:, 8, -0.133333, 0.433333, 0, 0.592546, 0.477432, 0.485081, 0.657266, 0.784802, 0.866577, 0.932933, 1.08112, 1.11059
+elapsed time for k point: 0.046857357025146484
+solve_kpoint (-0.2,0.4,0):
+Solving for bands 1 to 8...
+    linmin: converged after 3 iterations.
+    iteration    1: trace = 5.539945654568793 (0.178021% change)
+    linmin: converged after 3 iterations.
+    iteration    2: trace = 5.532913162055158 (0.127022% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 5.529979239196311 (0.0530408% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 5.528258852183317 (0.031115% change)
+    linmin: converged after 4 iterations.
+    iteration    5: trace = 5.527477789239141 (0.0141296% change)
+    linmin: converged after 3 iterations.
+    iteration    6: trace = 5.527260789786563 (0.00392591% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 5.527174919467396 (0.00155359% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 5.527154227011168 (0.000374377% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 5.527144567218071 (0.00017477% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 5.527141351940133 (5.81725e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 5.527140473635477 (1.58908e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   12: trace = 5.527140149619924 (5.86226e-06% change)
+Finished solving for bands 1 to 8 after 12 iterations.
+tefreqs:, 9, -0.2, 0.4, 0, 0.61101, 0.48232, 0.50501, 0.630584, 0.799745, 0.866126, 0.900465, 1.09936, 1.11024
+elapsed time for k point: 0.045549631118774414
+solve_kpoint (-0.266667,0.366667,0):
+Solving for bands 1 to 8...
+    linmin: converged after 3 iterations.
+    iteration    1: trace = 5.522643689610636 (0.153921% change)
+    linmin: converged after 3 iterations.
+    iteration    2: trace = 5.517647929177323 (0.0905005% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 5.515892005948536 (0.0318288% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 5.515135476327635 (0.0137164% change)
+    linmin: converged after 3 iterations.
+    iteration    5: trace = 5.514756993759503 (0.00686285% change)
+    linmin: converged after 3 iterations.
+    iteration    6: trace = 5.514652222382208 (0.00189985% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 5.514602233408348 (0.00090648% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 5.514589890321428 (0.000223826% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 5.514584135705762 (0.000104353% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 5.514582299432951 (3.32985e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 5.514581755388878 (9.86555e-06% change)
+Finished solving for bands 1 to 8 after 11 iterations.
+tefreqs:, 10, -0.266667, 0.366667, 0, 0.635959, 0.487852, 0.531427, 0.598151, 0.814208, 0.865617, 0.875643, 1.10711, 1.10983
+elapsed time for k point: 0.04482412338256836
+solve_kpoint (-0.333333,0.333333,0):
+Solving for bands 1 to 8...
+    linmin: converged after 3 iterations.
+    iteration    1: trace = 5.513149344211564 (0.118004% change)
+    linmin: converged after 3 iterations.
+    iteration    2: trace = 5.510123731742696 (0.054895% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 5.509213072615125 (0.0165284% change)
+    linmin: converged after 2 iterations.
+    iteration    4: trace = 5.50890869781765 (0.00552499% change)
+    linmin: converged after 3 iterations.
+    iteration    5: trace = 5.508738146834417 (0.00309596% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 5.508683619313638 (0.000989842% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 5.508654047543555 (0.000536822% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 5.508646674217628 (0.00013385% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 5.508643584615619 (5.60864e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 5.50864264015486 (1.71451e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 5.508642363481822 (5.02253e-06% change)
+Finished solving for bands 1 to 8 after 11 iterations.
+tefreqs:, 11, -0.333333, 0.333333, 0, 0.666667, 0.491236, 0.563106, 0.563151, 0.821423, 0.865195, 0.865231, 1.10923, 1.10941
+elapsed time for k point: 0.07431888580322266
+solve_kpoint (-0.266667,0.266667,0):
+Solving for bands 1 to 8...
+    linmin: converged after 3 iterations.
+    iteration    1: trace = 5.550578606116108 (0.389249% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 5.542766045558881 (0.140851% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 5.540530013063504 (0.0403496% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 5.539782249230836 (0.0134972% change)
+    linmin: converged after 4 iterations.
+    iteration    5: trace = 5.539264975485823 (0.00933787% change)
+    linmin: converged after 4 iterations.
+    iteration    6: trace = 5.539067877344933 (0.00355826% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 5.538979777707308 (0.00159053% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 5.538958701492612 (0.000380508% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 5.538951638445035 (0.000127516% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 5.538948978717162 (4.80186e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 5.538948193805686 (1.41708e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   12: trace = 5.538947835700196 (6.46523e-06% change)
+Finished solving for bands 1 to 8 after 12 iterations.
+tefreqs:, 12, -0.266667, 0.266667, 0, 0.533333, 0.446126, 0.532191, 0.637012, 0.806654, 0.86614, 0.893198, 1.10593, 1.10866
+elapsed time for k point: 0.056407928466796875
+solve_kpoint (-0.2,0.2,0):
+Solving for bands 1 to 8...
+    linmin: converged after 2 iterations.
+    iteration    1: trace = 5.647301098209612 (0.32971% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 5.640926868448621 (0.112936% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 5.638789928511596 (0.03789% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 5.637897585889101 (0.0158263% change)
+    linmin: converged after 4 iterations.
+    iteration    5: trace = 5.637265406135831 (0.0112137% change)
+    linmin: converged after 4 iterations.
+    iteration    6: trace = 5.637036228395296 (0.00406549% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 5.636936317466729 (0.00177242% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 5.636905145549771 (0.000552995% change)
+    linmin: converged after 3 iterations.
+    iteration    9: trace = 5.636896049002136 (0.000161375% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 5.636893340895474 (4.80425e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 5.636892882976372 (8.12361e-06% change)
+Finished solving for bands 1 to 8 after 11 iterations.
+tefreqs:, 13, -0.2, 0.2, 0, 0.4, 0.345267, 0.542882, 0.713396, 0.795022, 0.875814, 0.938821, 1.09707, 1.10904
+elapsed time for k point: 0.06588053703308105
+solve_kpoint (-0.133333,0.133333,0):
+Solving for bands 1 to 8...
+    linmin: converged after 3 iterations.
+    iteration    1: trace = 5.818507379328764 (0.3234% change)
+    linmin: converged after 3 iterations.
+    iteration    2: trace = 5.811868613918646 (0.114163% change)
+    linmin: converged after 3 iterations.
+    iteration    3: trace = 5.809599077345206 (0.0390577% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 5.808665708465082 (0.0160673% change)
+    linmin: converged after 4 iterations.
+    iteration    5: trace = 5.80806094709231 (0.0104119% change)
+    linmin: converged after 4 iterations.
+    iteration    6: trace = 5.807780537645641 (0.00482805% change)
+    linmin: converged after 4 iterations.
+    iteration    7: trace = 5.807591655029832 (0.00325229% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 5.807497003038142 (0.00162981% change)
+    linmin: converged after 3 iterations.
+    iteration    9: trace = 5.807463232060693 (0.000581508% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 5.807448597814401 (0.000251991% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 5.807443084500203 (9.49353e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   12: trace = 5.807439475388369 (6.21463e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   13: trace = 5.807437474493508 (3.4454e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   14: trace = 5.807436666560482 (1.3912e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   15: trace = 5.807436288399842 (6.51166e-06% change)
+Finished solving for bands 1 to 8 after 15 iterations.
+tefreqs:, 14, -0.133333, 0.133333, 0, 0.266667, 0.233479, 0.553269, 0.768719, 0.792196, 0.912766, 0.987203, 1.08919, 1.11098
+elapsed time for k point: 0.06189560890197754
+solve_kpoint (-0.0666667,0.0666667,0):
+Solving for bands 1 to 8...
+    linmin: converged after 3 iterations.
+    iteration    1: trace = 6.058580641036781 (0.404465% change)
+    linmin: converged after 3 iterations.
+    iteration    2: trace = 6.047224614633353 (0.187613% change)
+    linmin: converged after 3 iterations.
+    iteration    3: trace = 6.042872507880985 (0.0719946% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 6.041118032706865 (0.029038% change)
+    linmin: converged after 3 iterations.
+    iteration    5: trace = 6.040283469110056 (0.0138157% change)
+    linmin: converged after 3 iterations.
+    iteration    6: trace = 6.039951446783128 (0.00549695% change)
+    linmin: converged after 3 iterations.
+    iteration    7: trace = 6.039733658722627 (0.00360586% change)
+    linmin: converged after 4 iterations.
+    iteration    8: trace = 6.03953682635546 (0.00325901% change)
+    linmin: converged after 4 iterations.
+    iteration    9: trace = 6.039366375345196 (0.00282229% change)
+    linmin: converged after 4 iterations.
+    iteration   10: trace = 6.039238239550542 (0.0021217% change)
+    linmin: converged after 3 iterations.
+    iteration   11: trace = 6.039190391662467 (0.000792287% change)
+    linmin: converged after 2 iterations.
+    iteration   12: trace = 6.039166694287053 (0.000392394% change)
+    linmin: converged after 3 iterations.
+    iteration   13: trace = 6.0391550356776 (0.00019305% change)
+    linmin: converged after 2 iterations.
+    iteration   14: trace = 6.039151334551693 (6.12855e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   15: trace = 6.039149881489029 (2.40607e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   16: trace = 6.039149285318374 (9.87176e-06% change)
+Finished solving for bands 1 to 8 after 16 iterations.
+tefreqs:, 15, -0.0666667, 0.0666667, 0, 0.133333, 0.117556, 0.559323, 0.789736, 0.793576, 0.983043, 1.02374, 1.09661, 1.11448
+elapsed time for k point: 0.13091254234313965
+solve_kpoint (0,0,0):
+Solving for bands 2 to 8...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 6.298758274560814 (0.895537% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 6.245460231327741 (0.849763% change)
+    linmin: converged after 3 iterations.
+    iteration    3: trace = 6.223341785702519 (0.354781% change)
+    linmin: converged after 3 iterations.
+    iteration    4: trace = 6.211980615091758 (0.182724% change)
+    linmin: converged after 3 iterations.
+    iteration    5: trace = 6.208148485367179 (0.0617084% change)
+    linmin: converged after 3 iterations.
+    iteration    6: trace = 6.206838432143011 (0.0211044% change)
+    linmin: converged after 4 iterations.
+    iteration    7: trace = 6.206171026935432 (0.0107533% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 6.205806280560429 (0.00587733% change)
+    linmin: converged after 4 iterations.
+    iteration    9: trace = 6.205533500746776 (0.00439565% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 6.205428922287433 (0.00168526% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 6.205404457703386 (0.000394246% change)
+    linmin: converged after 2 iterations.
+    iteration   12: trace = 6.205390158197568 (0.000230437% change)
+    linmin: converged after 2 iterations.
+    iteration   13: trace = 6.205379215254675 (0.000176346% change)
+    linmin: converged after 2 iterations.
+    iteration   14: trace = 6.205369303786711 (0.000159724% change)
+    linmin: converged after 2 iterations.
+    iteration   15: trace = 6.20536234032901 (0.000112217% change)
+    linmin: converged after 2 iterations.
+    iteration   16: trace = 6.205354361236771 (0.000128584% change)
+    linmin: converged after 2 iterations.
+    iteration   17: trace = 6.205347562043793 (0.00010957% change)
+    linmin: converged after 2 iterations.
+    iteration   18: trace = 6.205343405078139 (6.69901e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   19: trace = 6.205340298309571 (5.0066e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   20: trace = 6.205338899496327 (2.25421e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   21: trace = 6.205338351100027 (8.83749e-06% change)
+Finished solving for bands 2 to 8 after 21 iterations.
+tefreqs:, 16, 0, 0, 0, 0, 0, 0.561229, 0.793929, 0.794659, 1.03341, 1.03342, 1.11597, 1.11681
+elapsed time for k point: 0.07167840003967285
+Band 1 range: 0.0 at Vector3<0.0, 0.0, 0.0> to 0.49123581641554254 at Vector3<-0.3333333333333333, 0.3333333333333333, 0.0>
+Band 2 range: 0.4730722398039779 at Vector3<0.0, 0.5, 0.0> to 0.5631059454934054 at Vector3<-0.3333333333333333, 0.3333333333333333, 0.0>
+Band 3 range: 0.5631505237340387 at Vector3<-0.3333333333333333, 0.3333333333333333, 0.0> to 0.7939289543994175 at Vector3<0.0, 0.0, 0.0>
+Band 4 range: 0.7676614802373222 at Vector3<0.0, 0.5, 0.0> to 0.8214230165371805 at Vector3<-0.3333333333333333, 0.3333333333333333, 0.0>
+Band 5 range: 0.8651948161669999 at Vector3<-0.3333333333333333, 0.3333333333333333, 0.0> to 1.033413028871826 at Vector3<0.0, 0.0, 0.0>
+Band 6 range: 0.8652308007806797 at Vector3<-0.3333333333333333, 0.3333333333333333, 0.0> to 1.0334231173608965 at Vector3<0.0, 0.0, 0.0>
+Band 7 range: 1.0213677201037092 at Vector3<0.0, 0.5, 0.0> to 1.1159672190021002 at Vector3<0.0, 0.0, 0.0>
+Band 8 range: 1.1086627112265828 at Vector3<-0.26666666666666666, 0.26666666666666666, 0.0> to 1.1168108247029593 at Vector3<0.0, 0.0, 0.0>
+Gap from band 2 (0.5631059454934054) to band 3 (0.5631505237340387), 0.007916179280885614%
+Gap from band 4 (0.8214230165371805) to band 5 (0.8651948161669999), 5.190482251647886%
+total elapsed time for run: 1.0777676105499268
+done
+epsilon: 1-12, mean 2.59614, harm. mean 1.17149, 17.2852% > 1, 14.5104% "fill"
+real part range: 1 .. 12
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/home/mark/anaconda3/envs/mp/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "/home/mark/anaconda3/envs/mp/lib/python3.10/tkinter/__init__.py", line 839, in callit
+    func(*args)
+  File "/home/mark/anaconda3/envs/mp/lib/python3.10/site-packages/matplotlib/backends/_backend_tk.py", line 503, in delayed_destroy
+    self.window.destroy()
+  File "/home/mark/anaconda3/envs/mp/lib/python3.10/tkinter/__init__.py", line 2341, in destroy
+    self.tk.call('destroy', self._w)
+_tkinter.TclError: can't invoke "destroy" command: application has been destroyed
+Initializing eigensolver data
+Computing 5 bands with 1e-07 tolerance
+Working in 3 dimensions.
+Grid size is 16 x 16 x 16.
+Solving for 5 bands at a time.
+Creating Maxwell data...
+Mesh size is 5.
+Lattice vectors:
+     (0, 0.5, 0.5)
+     (0.5, 0, 0.5)
+     (0.5, 0.5, 0)
+Cell volume = 0.25
+Reciprocal lattice vectors (/ 2 pi):
+     (-1, 1, 1)
+     (1, -1, 1)
+     (1, 1, -1)
+Geometric objects:
+     sphere, center = (0.125,0.125,0.125)
+          radius 0.25
+     sphere, center = (-0.125,-0.125,-0.125)
+          radius 0.25
+Geometric object tree has depth 4 and 35 object nodes (vs. 2 actual objects)
+Initializing epsilon function...
+Allocating fields...
+Solving for band polarization: .
+Initializing fields to random numbers...
+31 k-points
+  Vector3<0.0, 0.5, 0.5>
+  Vector3<0.0, 0.525, 0.475>
+  Vector3<0.0, 0.55, 0.45>
+  Vector3<0.0, 0.575, 0.425>
+  Vector3<0.0, 0.6, 0.4>
+  Vector3<0.0, 0.625, 0.375>
+  Vector3<0.0, 0.6, 0.3>
+  Vector3<0.0, 0.575, 0.225>
+  Vector3<0.0, 0.55, 0.15000000000000002>
+  Vector3<0.0, 0.525, 0.07500000000000001>
+  Vector3<0.0, 0.5, 0.0>
+  Vector3<0.0, 0.4, 0.0>
+  Vector3<0.0, 0.3, 0.0>
+  Vector3<0.0, 0.19999999999999996, 0.0>
+  Vector3<0.0, 0.09999999999999998, 0.0>
+  Vector3<0.0, 0.0, 0.0>
+  Vector3<0.0, 0.1, 0.1>
+  Vector3<0.0, 0.2, 0.2>
+  Vector3<0.0, 0.30000000000000004, 0.30000000000000004>
+  Vector3<0.0, 0.4, 0.4>
+  Vector3<0.0, 0.5, 0.5>
+  Vector3<0.05, 0.55, 0.5>
+  Vector3<0.1, 0.6, 0.5>
+  Vector3<0.15000000000000002, 0.65, 0.5>
+  Vector3<0.2, 0.7, 0.5>
+  Vector3<0.25, 0.75, 0.5>
+  Vector3<0.275, 0.75, 0.475>
+  Vector3<0.3, 0.75, 0.45>
+  Vector3<0.325, 0.75, 0.425>
+  Vector3<0.35, 0.75, 0.4>
+  Vector3<0.375, 0.75, 0.375>
+elapsed time for initialization: 0.022858381271362305
+solve_kpoint (0,0.5,0.5):
+freqs:, k index, k1, k2, k3, kmag/2pi, band 1, band 2, band 3, band 4, band 5
+Solving for bands 1 to 5...
+    near maximum in trace
+    linmin: converged after 8 iterations.
+    iteration    1: trace = 8.133143217831204 (194.462% change)
+    linmin: converged after 7 iterations.
+    iteration    2: trace = 1.652361169229085 (132.457% change)
+    linmin: converged after 5 iterations.
+    iteration    3: trace = 1.263609037745171 (26.6637% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 1.152016665925763 (9.23921% change)
+    linmin: converged after 4 iterations.
+    iteration    5: trace = 1.109476084941989 (3.76217% change)
+    linmin: converged after 4 iterations.
+    iteration    6: trace = 1.09445771813406 (1.36287% change)
+    linmin: converged after 4 iterations.
+    iteration    7: trace = 1.086908141655095 (0.692188% change)
+    linmin: converged after 4 iterations.
+    iteration    8: trace = 1.083376666034792 (0.325439% change)
+    linmin: converged after 4 iterations.
+    iteration    9: trace = 1.080872280973568 (0.231432% change)
+    linmin: converged after 4 iterations.
+    iteration   10: trace = 1.078946946622453 (0.178287% change)
+    linmin: converged after 4 iterations.
+    iteration   11: trace = 1.077191620364577 (0.162821% change)
+    linmin: converged after 4 iterations.
+    iteration   12: trace = 1.075990911399604 (0.111529% change)
+    linmin: converged after 4 iterations.
+    iteration   13: trace = 1.075466066087292 (0.0487898% change)
+    linmin: converged after 4 iterations.
+    iteration   14: trace = 1.07524728029793 (0.0203454% change)
+    linmin: converged after 2 iterations.
+    iteration   15: trace = 1.075171903027081 (0.00701047% change)
+    linmin: converged after 2 iterations.
+    iteration   16: trace = 1.075136915406961 (0.00325419% change)
+    linmin: converged after 2 iterations.
+    iteration   17: trace = 1.075120063580542 (0.00156742% change)
+    linmin: converged after 2 iterations.
+    iteration   18: trace = 1.075112931725325 (0.000663357% change)
+    linmin: converged after 2 iterations.
+    iteration   19: trace = 1.075109491305133 (0.000320006% change)
+    linmin: converged after 2 iterations.
+    iteration   20: trace = 1.075107754116551 (0.000161583% change)
+    linmin: converged after 2 iterations.
+    iteration   21: trace = 1.075106440760331 (0.000122161% change)
+    linmin: converged after 2 iterations.
+    iteration   22: trace = 1.075105326350484 (0.000103656% change)
+    linmin: converged after 2 iterations.
+    iteration   23: trace = 1.075104156821499 (0.000108783% change)
+    linmin: converged after 2 iterations.
+    iteration   24: trace = 1.075102508845438 (0.000153285% change)
+    linmin: converged after 2 iterations.
+    iteration   25: trace = 1.075099780657145 (0.000253761% change)
+    large trace change predicted (0.000532751%)
+    linmin: converged after 2 iterations.
+    iteration   26: trace = 1.075094053775406 (0.000532685% change)
+    large trace change predicted (0.00107034%)
+    linmin: converged after 3 iterations.
+    iteration   27: trace = 1.075082559625929 (0.00106914% change)
+    large trace change predicted (0.00216394%)
+    linmin: converged after 3 iterations.
+    iteration   28: trace = 1.07505941166846 (0.00215316% change)
+    linmin: converged after 4 iterations.
+    iteration   29: trace = 1.075024940218939 (0.00320652% change)
+    linmin: converged after 4 iterations.
+    iteration   30: trace = 1.074990601838643 (0.00319424% change)
+    linmin: converged after 4 iterations.
+    iteration   31: trace = 1.074956663286299 (0.00315715% change)
+    linmin: converged after 3 iterations.
+    iteration   32: trace = 1.074923463010968 (0.00308857% change)
+    linmin: converged after 3 iterations.
+    iteration   33: trace = 1.074891646120657 (0.00295997% change)
+    linmin: converged after 3 iterations.
+    iteration   34: trace = 1.074869100978009 (0.00209746% change)
+    linmin: converged after 3 iterations.
+    iteration   35: trace = 1.074857774717877 (0.00105374% change)
+    linmin: converged after 3 iterations.
+    iteration   36: trace = 1.074852985753935 (0.000445545% change)
+    linmin: converged after 2 iterations.
+    iteration   37: trace = 1.074851203737183 (0.000165792% change)
+    linmin: converged after 2 iterations.
+    iteration   38: trace = 1.074850385603726 (7.6116e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   39: trace = 1.074849835943372 (5.11383e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   40: trace = 1.074849468624528 (3.4174e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   41: trace = 1.074849273941502 (1.81126e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   42: trace = 1.074849196491295 (7.20568e-06% change)
+Finished solving for bands 1 to 5 after 42 iterations.
+freqs:, 1, 0, 0.5, 0.5, 1, 0.38015, 0.381243, 0.495263, 0.496788, 0.541208
+elapsed time for k point: 0.4235851764678955
+solve_kpoint (0,0.525,0.475):
+Solving for bands 1 to 5...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 1.07585863112626 (0.603192% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 1.073482464710735 (0.221106% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 1.072517095134273 (0.0899692% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 1.072267201351259 (0.0233025% change)
+    linmin: converged after 2 iterations.
+    iteration    5: trace = 1.072198570488266 (0.00640074% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 1.072184509475894 (0.00131143% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 1.072176718614174 (0.000726637% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 1.072174500167048 (0.000206911% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 1.072173193536471 (0.000121867% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 1.072172714175443 (4.47093e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 1.072172433063634 (2.62189e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   12: trace = 1.072172027466044 (3.78295e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   13: trace = 1.072171223551648 (7.498e-05% change)
+    large trace change predicted (0.000181198%)
+    linmin: converged after 2 iterations.
+    iteration   14: trace = 1.072169280869108 (0.000181192% change)
+    linmin: converged after 2 iterations.
+    iteration   15: trace = 1.072167299304236 (0.000184818% change)
+    linmin: converged after 2 iterations.
+    iteration   16: trace = 1.072166333967536 (9.00361e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   17: trace = 1.072165864288615 (4.38065e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   18: trace = 1.072165606792345 (2.40165e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   19: trace = 1.072165373243567 (2.17829e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   20: trace = 1.072165197430759 (1.63979e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   21: trace = 1.072165101766016 (8.92258e-06% change)
+Finished solving for bands 1 to 5 after 21 iterations.
+freqs:, 2, 0, 0.525, 0.475, 1.0025, 0.380386, 0.382168, 0.495624, 0.497176, 0.537208
+elapsed time for k point: 0.1762094497680664
+solve_kpoint (0,0.55,0.45):
+Solving for bands 1 to 5...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 1.068439211399457 (0.573517% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 1.066480404553788 (0.183502% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 1.06577452856112 (0.0662093% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 1.065585830064401 (0.0177069% change)
+    linmin: converged after 2 iterations.
+    iteration    5: trace = 1.065530603562972 (0.00518287% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 1.065515972888808 (0.0013731% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 1.065506735791813 (0.000866917% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 1.065504261383309 (0.000232229% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 1.065502963648707 (0.000121795% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 1.065502472949651 (4.60533e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 1.065502073517021 (3.74877e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   12: trace = 1.065501489877133 (5.47761e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   13: trace = 1.065500840870197 (6.0911e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   14: trace = 1.065500226230972 (5.76855e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   15: trace = 1.065499895604618 (3.10302e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   16: trace = 1.065499682331304 (2.00163e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   17: trace = 1.065499503267743 (1.68056e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   18: trace = 1.065499382485781 (1.13357e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   19: trace = 1.065499315377688 (6.29828e-06% change)
+Finished solving for bands 1 to 5 after 19 iterations.
+freqs:, 3, 0, 0.55, 0.45, 1.00995, 0.380966, 0.38483, 0.496711, 0.498342, 0.526501
+elapsed time for k point: 0.15706682205200195
+solve_kpoint (0,0.575,0.425):
+Solving for bands 1 to 5...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 1.059540354524745 (0.530629% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 1.057983726760992 (0.147023% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 1.057502277598619 (0.0455166% change)
+    linmin: converged after 2 iterations.
+    iteration    4: trace = 1.057358679581217 (0.0135799% change)
+    linmin: converged after 2 iterations.
+    iteration    5: trace = 1.057314773771225 (0.00415249% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 1.057300935852501 (0.00130879% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 1.057292768308003 (0.000772493% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 1.057291098113708 (0.000157969% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 1.057290444304929 (6.18381e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 1.057290252299935 (1.81601e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 1.057290136902063 (1.09145e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   12: trace = 1.057289973128856 (1.54899e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   13: trace = 1.057289793481672 (1.69913e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   14: trace = 1.057289654970004 (1.31006e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   15: trace = 1.057289604230154 (4.79905e-06% change)
+Finished solving for bands 1 to 5 after 15 iterations.
+freqs:, 4, 0, 0.575, 0.425, 1.02225, 0.381461, 0.388864, 0.498536, 0.500287, 0.511601
+elapsed time for k point: 0.12482619285583496
+solve_kpoint (0,0.6,0.4):
+Solving for bands 1 to 5...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 1.051100758529644 (0.506619% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 1.049691279271021 (0.134186% change)
+    linmin: converged after 2 iterations.
+    iteration    3: trace = 1.049314904935224 (0.0358621% change)
+    linmin: converged after 2 iterations.
+    iteration    4: trace = 1.04918546346502 (0.0123366% change)
+    linmin: converged after 2 iterations.
+    iteration    5: trace = 1.049147945025276 (0.00357602% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 1.049135881215337 (0.00114987% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 1.049129493246518 (0.000608881% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 1.04912826604731 (0.000116973% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 1.049127805980035 (4.38523e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 1.049127688648362 (1.11837e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 1.049127643760572 (4.27858e-06% change)
+Finished solving for bands 1 to 5 after 11 iterations.
+freqs:, 5, 0, 0.6, 0.4, 1.03923, 0.381077, 0.393446, 0.49495, 0.501109, 0.503014
+elapsed time for k point: 0.09557676315307617
+solve_kpoint (0,0.625,0.375):
+Solving for bands 1 to 5...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 1.043459479096264 (0.50682% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 1.041988599248379 (0.141061% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 1.041638164472743 (0.033637% change)
+    linmin: converged after 2 iterations.
+    iteration    4: trace = 1.041500330900456 (0.0132333% change)
+    linmin: converged after 2 iterations.
+    iteration    5: trace = 1.041466758301707 (0.00322354% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 1.041457023407392 (0.000934734% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 1.041452281694373 (0.000455297% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 1.041451243936248 (9.96453e-05% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 1.041450795715767 (4.30381e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 1.041450677423903 (1.13584e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 1.041450631959371 (4.3655e-06% change)
+Finished solving for bands 1 to 5 after 11 iterations.
+freqs:, 6, 0, 0.625, 0.375, 1.06066, 0.378621, 0.396729, 0.479263, 0.504433, 0.506514
+elapsed time for k point: 0.09696435928344727
+D-energy-components:, 6, 1, 0.047763, 0.476093, 0.476144
+D-energy-components:, 6, 2, 0.232069, 0.383935, 0.383995
+D-energy-components:, 6, 3, 0.736307, 0.131986, 0.131707
+D-energy-components:, 6, 4, 0.117077, 0.441262, 0.441661
+D-energy-components:, 6, 5, 0.238891, 0.379123, 0.381986
+solve_kpoint (0,0.6,0.3):
+Solving for bands 1 to 5...
+    linmin: converged after 3 iterations.
+    iteration    1: trace = 1.040373483245623 (2.31818% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 1.031941841422328 (0.813741% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 1.02771876290429 (0.410075% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 1.020761718948626 (0.679239% change)
+    linmin: converged after 3 iterations.
+    iteration    5: trace = 1.017133051470207 (0.356119% change)
+    linmin: converged after 3 iterations.
+    iteration    6: trace = 1.013870977678198 (0.321228% change)
+    linmin: converged after 3 iterations.
+    iteration    7: trace = 1.012775316546655 (0.108126% change)
+    linmin: converged after 3 iterations.
+    iteration    8: trace = 1.012389351525888 (0.0381169% change)
+    linmin: converged after 3 iterations.
+    iteration    9: trace = 1.012232532361925 (0.0154912% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 1.012195105644889 (0.00369751% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 1.012182869939064 (0.00120884% change)
+    linmin: converged after 2 iterations.
+    iteration   12: trace = 1.012179768744053 (0.000306387% change)
+    linmin: converged after 2 iterations.
+    iteration   13: trace = 1.012178820949899 (9.3639e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   14: trace = 1.012178502453419 (3.14664e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   15: trace = 1.012178402266736 (9.89812e-06% change)
+Finished solving for bands 1 to 5 after 15 iterations.
+freqs:, 7, 0, 0.6, 0.3, 0.994987, 0.369582, 0.388559, 0.467091, 0.487657, 0.518291
+elapsed time for k point: 0.1380295753479004
+solve_kpoint (0,0.575,0.225):
+Solving for bands 1 to 5...
+    linmin: converged after 3 iterations.
+    iteration    1: trace = 0.9915583394585614 (2.26288% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 0.9866583397943014 (0.495396% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 0.9859127298652942 (0.0755978% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 0.9856453081902694 (0.027128% change)
+    linmin: converged after 2 iterations.
+    iteration    5: trace = 0.9855704142412129 (0.00759876% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 0.9855574219594025 (0.00131826% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 0.9855513378056471 (0.000617333% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 0.9855502466770485 (0.000110713% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 0.9855497990862179 (4.54153e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 0.9855495920060038 (2.10116e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 0.9855494342700417 (1.60049e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   12: trace = 0.9855492455945762 (1.91442e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   13: trace = 0.9855489814445468 (2.68023e-05% change)
+    large trace change predicted (7.45883e-05%)
+    linmin: converged after 2 iterations.
+    iteration   14: trace = 0.98554824637937 (7.45844e-05% change)
+    large trace change predicted (0.000303059%)
+    linmin: converged after 3 iterations.
+    iteration   15: trace = 0.9855452637753563 (0.000302634% change)
+    near maximum in trace
+    linmin: converged after 7 iterations.
+    iteration   16: trace = 0.9854603723860064 (0.00861402% change)
+    linmin: converged after 4 iterations.
+    iteration   17: trace = 0.9854394105733619 (0.00212713% change)
+    linmin: converged after 3 iterations.
+    iteration   18: trace = 0.9854197121872309 (0.00199896% change)
+    linmin: converged after 4 iterations.
+    iteration   19: trace = 0.985399648370737 (0.00203609% change)
+    linmin: converged after 3 iterations.
+    iteration   20: trace = 0.985378564987595 (0.0021396% change)
+    linmin: converged after 4 iterations.
+    iteration   21: trace = 0.9853565627665434 (0.00223289% change)
+    linmin: converged after 4 iterations.
+    iteration   22: trace = 0.9853340771482356 (0.002282% change)
+    linmin: converged after 4 iterations.
+    iteration   23: trace = 0.985311248672581 (0.00231685% change)
+    linmin: converged after 4 iterations.
+    iteration   24: trace = 0.9852878126831488 (0.00237856% change)
+    linmin: converged after 3 iterations.
+    iteration   25: trace = 0.9852636192622366 (0.0024555% change)
+    linmin: converged after 3 iterations.
+    iteration   26: trace = 0.9852391627686881 (0.00248226% change)
+    linmin: converged after 3 iterations.
+    iteration   27: trace = 0.9852155564363811 (0.00239603% change)
+    linmin: converged after 3 iterations.
+    iteration   28: trace = 0.985193910755271 (0.00219707% change)
+    linmin: converged after 3 iterations.
+    iteration   29: trace = 0.9851747726204378 (0.00194259% change)
+    linmin: converged after 3 iterations.
+    iteration   30: trace = 0.9851581002401788 (0.00169234% change)
+    linmin: converged after 3 iterations.
+    iteration   31: trace = 0.985143540139753 (0.00147796% change)
+    linmin: converged after 3 iterations.
+    iteration   32: trace = 0.985130669766458 (0.00130646% change)
+    linmin: converged after 3 iterations.
+    iteration   33: trace = 0.9851191178011134 (0.00117264% change)
+    linmin: converged after 3 iterations.
+    iteration   34: trace = 0.985108600642486 (0.00106761% change)
+    linmin: converged after 3 iterations.
+    iteration   35: trace = 0.985098919810906 (0.000982722% change)
+    linmin: converged after 3 iterations.
+    iteration   36: trace = 0.9850899451155626 (0.000911049% change)
+    linmin: converged after 3 iterations.
+    iteration   37: trace = 0.985081594633672 (0.000847691% change)
+    linmin: converged after 3 iterations.
+    iteration   38: trace = 0.9850738162216974 (0.000789624% change)
+    linmin: converged after 3 iterations.
+    iteration   39: trace = 0.9850665726829118 (0.000735332% change)
+    linmin: converged after 3 iterations.
+    iteration   40: trace = 0.985059831407183 (0.00068435% change)
+    linmin: converged after 3 iterations.
+    iteration   41: trace = 0.9850535583686921 (0.00063682% change)
+    linmin: converged after 3 iterations.
+    iteration   42: trace = 0.9850477157005465 (0.000593134% change)
+    linmin: converged after 3 iterations.
+    iteration   43: trace = 0.9850422617411028 (0.000553676% change)
+    linmin: converged after 3 iterations.
+    iteration   44: trace = 0.9850371524590806 (0.000518688% change)
+    linmin: converged after 3 iterations.
+    iteration   45: trace = 0.985032343396671 (0.000488212% change)
+    linmin: converged after 3 iterations.
+    iteration   46: trace = 0.9850277915754171 (0.0004621% change)
+    linmin: converged after 3 iterations.
+    iteration   47: trace = 0.9850234570809469 (0.000440039% change)
+    linmin: converged after 3 iterations.
+    iteration   48: trace = 0.9850193042315472 (0.0004216% change)
+    linmin: converged after 3 iterations.
+    iteration   49: trace = 0.9850153023397649 (0.000406276% change)
+    linmin: converged after 3 iterations.
+    iteration   50: trace = 0.985011426116885 (0.00039352% change)
+    linmin: converged after 3 iterations.
+    iteration   51: trace = 0.9850076557735683 (0.000382772% change)
+    linmin: converged after 3 iterations.
+    iteration   52: trace = 0.9850039768587125 (0.000373492% change)
+    linmin: converged after 3 iterations.
+    iteration   53: trace = 0.9850003798679527 (0.000365176% change)
+    linmin: converged after 3 iterations.
+    iteration   54: trace = 0.9849968596508197 (0.000357383% change)
+    linmin: converged after 3 iterations.
+    iteration   55: trace = 0.9849934146528481 (0.000349748% change)
+    linmin: converged after 3 iterations.
+    iteration   56: trace = 0.9849900460422704 (0.000341994% change)
+    linmin: converged after 3 iterations.
+    iteration   57: trace = 0.9849867567846013 (0.000333939% change)
+    linmin: converged after 3 iterations.
+    iteration   58: trace = 0.9849835507361859 (0.000325492% change)
+    linmin: converged after 3 iterations.
+    iteration   59: trace = 0.9849804318257034 (0.000316646% change)
+    linmin: converged after 3 iterations.
+    iteration   60: trace = 0.9849774033801181 (0.000307463% change)
+    linmin: converged after 3 iterations.
+    iteration   61: trace = 0.9849744676308652 (0.000298053% change)
+    linmin: converged after 3 iterations.
+    iteration   62: trace = 0.9849716254123571 (0.000288558% change)
+    linmin: converged after 3 iterations.
+    iteration   63: trace = 0.9849688760422523 (0.000279132% change)
+    linmin: converged after 3 iterations.
+    iteration   64: trace = 0.9849662173562481 (0.000269926% change)
+    linmin: converged after 3 iterations.
+    iteration   65: trace = 0.9849636458602183 (0.000261075% change)
+    linmin: converged after 3 iterations.
+    iteration   66: trace = 0.9849611569599664 (0.00025269% change)
+    linmin: converged after 3 iterations.
+    iteration   67: trace = 0.9849587452317461 (0.000244855% change)
+    linmin: converged after 3 iterations.
+    iteration   68: trace = 0.984956404703065 (0.000237627% change)
+    linmin: converged after 3 iterations.
+    iteration   69: trace = 0.9849541291210868 (0.000231034% change)
+    resetting CG direction...
+    large trace change predicted (0.0365557%)
+    linmin: converged after 2 iterations.
+    iteration   70: trace = 0.9845940951100131 (0.0365601% change)
+    linmin: converged after 4 iterations.
+    iteration   71: trace = 0.9844163372188715 (0.0180556% change)
+    linmin: converged after 2 iterations.
+    iteration   72: trace = 0.984353663146581 (0.00636683% change)
+    linmin: converged after 2 iterations.
+    iteration   73: trace = 0.9843338080856224 (0.00201709% change)
+    linmin: converged after 2 iterations.
+    iteration   74: trace = 0.9843287465021545 (0.000514215% change)
+    linmin: converged after 2 iterations.
+    iteration   75: trace = 0.984326650346512 (0.000212953% change)
+    linmin: converged after 2 iterations.
+    iteration   76: trace = 0.9843257888030821 (8.75262e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   77: trace = 0.98432547201235 (3.21835e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   78: trace = 0.9843253681298656 (1.05537e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   79: trace = 0.984325309088669 (5.99814e-06% change)
+Finished solving for bands 1 to 5 after 79 iterations.
+freqs:, 8, 0, 0.575, 0.225, 0.940744, 0.356415, 0.3702, 0.457212, 0.470085, 0.538724
+elapsed time for k point: 0.6994404792785645
+solve_kpoint (0,0.55,0.15):
+Solving for bands 1 to 5...
+    linmin: converged after 3 iterations.
+    iteration    1: trace = 0.964663710434243 (2.39156% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 0.9596035891705709 (0.525927% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 0.9585171154458207 (0.113285% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 0.9579431595428987 (0.0598975% change)
+    linmin: converged after 4 iterations.
+    iteration    5: trace = 0.9577527004095161 (0.0198841% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 0.9577034553400409 (0.00514186% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 0.957677529394849 (0.00270713% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 0.9576688372225852 (0.000907635% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 0.9576619962262392 (0.000714341% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 0.9576588007933482 (0.000333671% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 0.9576571707088 (0.000170216% change)
+    linmin: converged after 2 iterations.
+    iteration   12: trace = 0.9576562630763317 (9.47764e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   13: trace = 0.9576559130819906 (3.6547e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   14: trace = 0.9576557717914677 (1.47538e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   15: trace = 0.9576557381939707 (3.50831e-06% change)
+Finished solving for bands 1 to 5 after 15 iterations.
+freqs:, 9, 0, 0.55, 0.15, 0.9, 0.344555, 0.351994, 0.449598, 0.455588, 0.552575
+elapsed time for k point: 0.13680219650268555
+solve_kpoint (0,0.525,0.075):
+Solving for bands 1 to 5...
+    linmin: converged after 3 iterations.
+    iteration    1: trace = 0.9479330416026606 (2.38879% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 0.9430880373040896 (0.512422% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 0.9419828914568497 (0.117252% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 0.9413716481824687 (0.0649101% change)
+    linmin: converged after 4 iterations.
+    iteration    5: trace = 0.9411790393953641 (0.0204625% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 0.9411442164383386 (0.0037% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 0.9411285751584784 (0.00166196% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 0.941123160719191 (0.000575315% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 0.941117878523019 (0.000561267% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 0.941114293531059 (0.00038093% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 0.9411125674488541 (0.000183409% change)
+    linmin: converged after 2 iterations.
+    iteration   12: trace = 0.9411116891552368 (9.33251e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   13: trace = 0.9411114279022219 (2.776e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   14: trace = 0.9411113215026996 (1.13057e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   15: trace = 0.9411112910174777 (3.23928e-06% change)
+Finished solving for bands 1 to 5 after 15 iterations.
+freqs:, 10, 0, 0.525, 0.075, 0.874643, 0.336533, 0.339294, 0.444662, 0.446211, 0.562057
+elapsed time for k point: 0.13425254821777344
+solve_kpoint (0,0.5,0):
+Solving for bands 1 to 5...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 0.9431498769453599 (2.39814% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 0.9380804899684518 (0.538944% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 0.9367725189823302 (0.139528% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 0.935991906018913 (0.0833648% change)
+    linmin: converged after 4 iterations.
+    iteration    5: trace = 0.9357712001160268 (0.0235827% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 0.9357390686709233 (0.00343374% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 0.935728227313438 (0.00115859% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 0.9357261093155365 (0.000226348% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 0.9357251596082035 (0.000101494% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 0.9357245224990063 (6.80872e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 0.935724121507021 (4.28536e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   12: trace = 0.9357237687203761 (3.7702e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   13: trace = 0.9357236170826422 (1.62054e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   14: trace = 0.9357235495805238 (7.2139e-06% change)
+Finished solving for bands 1 to 5 after 14 iterations.
+freqs:, 11, 0, 0.5, 0, 0.866025, 0.333545, 0.334937, 0.442371, 0.443555, 0.565558
+elapsed time for k point: 0.11585211753845215
+solve_kpoint (0,0.4,0):
+Solving for bands 1 to 5...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 0.9531649329668457 (2.95519% change)
+    linmin: converged after 3 iterations.
+    iteration    2: trace = 0.9465648012465531 (0.69485% change)
+    linmin: converged after 3 iterations.
+    iteration    3: trace = 0.9460973461382236 (0.0493966% change)
+    linmin: converged after 2 iterations.
+    iteration    4: trace = 0.945850227389804 (0.0261232% change)
+    linmin: converged after 2 iterations.
+    iteration    5: trace = 0.9458089712208542 (0.0043619% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 0.9457956175554715 (0.00141189% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 0.94579170728294 (0.000413438% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 0.9457908248491371 (9.33011e-05% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 0.9457904811881266 (3.63358e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 0.9457903724536645 (1.14967e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 0.9457903278368434 (4.71741e-06% change)
+Finished solving for bands 1 to 5 after 11 iterations.
+freqs:, 12, 0, 0.4, 0, 0.69282, 0.299948, 0.301256, 0.47018, 0.471285, 0.567351
+elapsed time for k point: 0.11603450775146484
+solve_kpoint (0,0.3,0):
+Solving for bands 1 to 5...
+    linmin: converged after 5 iterations.
+    iteration    1: trace = 0.9838328457890955 (2.82862% change)
+    linmin: converged after 3 iterations.
+    iteration    2: trace = 0.9767694421621231 (0.720534% change)
+    linmin: converged after 3 iterations.
+    iteration    3: trace = 0.9759906037750519 (0.079768% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 0.9754521675790078 (0.0551834% change)
+    linmin: converged after 2 iterations.
+    iteration    5: trace = 0.9753440712490959 (0.0110823% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 0.9752880380620759 (0.00574513% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 0.9752721472348156 (0.00162936% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 0.975267631050841 (0.00046307% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 0.9752661855135543 (0.00014822% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 0.9752658537015849 (3.40227e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 0.9752657148537345 (1.42369e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   12: trace = 0.9752656244604996 (9.26858e-06% change)
+Finished solving for bands 1 to 5 after 12 iterations.
+freqs:, 13, 0, 0.3, 0, 0.519615, 0.235132, 0.236238, 0.517406, 0.518221, 0.572633
+elapsed time for k point: 0.10528922080993652
+solve_kpoint (0,0.2,0):
+Solving for bands 1 to 5...
+    linmin: converged after 6 iterations.
+    iteration    1: trace = 1.031312195631372 (2.74463% change)
+    linmin: converged after 3 iterations.
+    iteration    2: trace = 1.023001513400654 (0.809096% change)
+    linmin: converged after 3 iterations.
+    iteration    3: trace = 1.020944385872907 (0.20129% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 1.01919660640596 (0.171339% change)
+    linmin: converged after 2 iterations.
+    iteration    5: trace = 1.018718378879781 (0.046933% change)
+    linmin: converged after 3 iterations.
+    iteration    6: trace = 1.018308766669951 (0.0402167% change)
+    linmin: converged after 4 iterations.
+    iteration    7: trace = 1.018176819200217 (0.0129584% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 1.01812253170479 (0.00533198% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 1.018108242413566 (0.0014035% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 1.018104768667409 (0.000341197% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 1.018103787592343 (9.63629e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   12: trace = 1.018103521146785 (2.61708e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   13: trace = 1.018103372231668 (1.46267e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   14: trace = 1.018103274935098 (9.55665e-06% change)
+Finished solving for bands 1 to 5 after 14 iterations.
+freqs:, 14, 0, 0.2, 0, 0.34641, 0.160616, 0.161417, 0.560554, 0.560855, 0.580923
+elapsed time for k point: 0.11802458763122559
+solve_kpoint (0,0.1,0):
+Solving for bands 1 to 5...
+    linmin: converged after 7 iterations.
+    iteration    1: trace = 1.077084395690369 (2.88178% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 1.066264822780989 (1.00959% change)
+    linmin: converged after 6 iterations.
+    iteration    3: trace = 1.059825109642425 (0.60578% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 1.056454723504725 (0.31852% change)
+    linmin: converged after 3 iterations.
+    iteration    5: trace = 1.05511755757994 (0.126651% change)
+    linmin: converged after 3 iterations.
+    iteration    6: trace = 1.053973901603726 (0.10845% change)
+    linmin: converged after 3 iterations.
+    iteration    7: trace = 1.053442815546447 (0.0504016% change)
+    linmin: converged after 3 iterations.
+    iteration    8: trace = 1.053206421501194 (0.0224427% change)
+    linmin: converged after 3 iterations.
+    iteration    9: trace = 1.053116223490969 (0.0085645% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 1.053071789432829 (0.00421938% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 1.053056115727292 (0.00148839% change)
+    linmin: converged after 2 iterations.
+    iteration   12: trace = 1.053047230916522 (0.00084372% change)
+    linmin: converged after 2 iterations.
+    iteration   13: trace = 1.053042147003031 (0.000482782% change)
+    linmin: converged after 2 iterations.
+    iteration   14: trace = 1.053037945811464 (0.000398958% change)
+    linmin: converged after 2 iterations.
+    iteration   15: trace = 1.053035345029101 (0.000246979% change)
+    linmin: converged after 2 iterations.
+    iteration   16: trace = 1.053034080515175 (0.000120083% change)
+    linmin: converged after 2 iterations.
+    iteration   17: trace = 1.053033596254249 (4.59872e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   18: trace = 1.053033362236598 (2.22232e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   19: trace = 1.053033220665601 (1.34441e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   20: trace = 1.05303313620385 (8.02081e-06% change)
+Finished solving for bands 1 to 5 after 20 iterations.
+freqs:, 15, 0, 0.1, 0, 0.173205, 0.0813864, 0.0818061, 0.587706, 0.587881, 0.59052
+elapsed time for k point: 0.16006040573120117
+solve_kpoint (0,0,0):
+Solving for bands 3 to 5...
+    linmin: converged after 6 iterations.
+    iteration    1: trace = 1.125437567002401 (26.7811% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 1.086219552795437 (3.54648% change)
+    linmin: converged after 3 iterations.
+    iteration    3: trace = 1.077450733804196 (0.81055% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 1.070927046314303 (0.607313% change)
+    linmin: converged after 4 iterations.
+    iteration    5: trace = 1.067961868887986 (0.277263% change)
+    linmin: converged after 4 iterations.
+    iteration    6: trace = 1.066407891676346 (0.145615% change)
+    linmin: converged after 4 iterations.
+    iteration    7: trace = 1.065593004584347 (0.0764434% change)
+    linmin: converged after 4 iterations.
+    iteration    8: trace = 1.065169850471103 (0.0397186% change)
+    linmin: converged after 4 iterations.
+    iteration    9: trace = 1.064947638353532 (0.0208638% change)
+    linmin: converged after 4 iterations.
+    iteration   10: trace = 1.064821114933393 (0.0118814% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 1.064775785666675 (0.00425707% change)
+    linmin: converged after 2 iterations.
+    iteration   12: trace = 1.064759864611956 (0.00149526% change)
+    linmin: converged after 2 iterations.
+    iteration   13: trace = 1.064754344477664 (0.000518441% change)
+    linmin: converged after 2 iterations.
+    iteration   14: trace = 1.064752586725137 (0.000165085% change)
+    linmin: converged after 2 iterations.
+    iteration   15: trace = 1.064751934599957 (6.12467e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   16: trace = 1.064751716666337 (2.0468e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   17: trace = 1.064751641670201 (7.04353e-06% change)
+Finished solving for bands 3 to 5 after 17 iterations.
+freqs:, 16, 0, 0, 0, 0, 0, 0, 0.59559, 0.595819, 0.595839
+elapsed time for k point: 0.08935284614562988
+solve_kpoint (0,0.1,0.1):
+Solving for bands 1 to 5...
+    linmin: converged after 7 iterations.
+    iteration    1: trace = 1.083139037492613 (4.15258% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 1.067758366584967 (1.43016% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 1.058742515937554 (0.847952% change)
+    linmin: converged after 3 iterations.
+    iteration    4: trace = 1.055820691225881 (0.276353% change)
+    linmin: converged after 4 iterations.
+    iteration    5: trace = 1.055193801029892 (0.0593923% change)
+    linmin: converged after 4 iterations.
+    iteration    6: trace = 1.05451560541416 (0.0642928% change)
+    linmin: converged after 4 iterations.
+    iteration    7: trace = 1.054199378856013 (0.0299923% change)
+    linmin: converged after 4 iterations.
+    iteration    8: trace = 1.05401509232819 (0.0174827% change)
+    linmin: converged after 4 iterations.
+    iteration    9: trace = 1.053945672788755 (0.00658642% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 1.053916475792949 (0.00277029% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 1.053905510977287 (0.00104039% change)
+    linmin: converged after 2 iterations.
+    iteration   12: trace = 1.053902319132946 (0.000302859% change)
+    linmin: converged after 2 iterations.
+    iteration   13: trace = 1.053901410198101 (8.62447e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   14: trace = 1.05390119022716 (2.08721e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   15: trace = 1.053901094620141 (9.07173e-06% change)
+Finished solving for bands 1 to 5 after 15 iterations.
+freqs:, 17, 0, 0.1, 0.1, 0.2, 0.09409, 0.0944497, 0.585515, 0.585945, 0.591581
+elapsed time for k point: 0.18541312217712402
+solve_kpoint (0,0.2,0.2):
+Solving for bands 1 to 5...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 1.06558233849824 (3.89952% change)
+    linmin: converged after 3 iterations.
+    iteration    2: trace = 1.055442375486499 (0.956138% change)
+    linmin: converged after 3 iterations.
+    iteration    3: trace = 1.052395393915943 (0.28911% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 1.051044992748179 (0.128399% change)
+    linmin: converged after 2 iterations.
+    iteration    5: trace = 1.050889443015552 (0.0148006% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 1.050818658251958 (0.00673593% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 1.0507756287359 (0.00409494% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 1.050735314182919 (0.00383672% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 1.050712372978461 (0.00218337% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 1.050703638778781 (0.000831268% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 1.050700526287971 (0.00029623% change)
+    linmin: converged after 2 iterations.
+    iteration   12: trace = 1.0506995322952 (9.46029e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   13: trace = 1.050699176761306 (3.38378e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   14: trace = 1.050699067270447 (1.04208e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   15: trace = 1.050699026583238 (3.87239e-06% change)
+Finished solving for bands 1 to 5 after 15 iterations.
+freqs:, 18, 0, 0.2, 0.2, 0.4, 0.185559, 0.18625, 0.566601, 0.567223, 0.582064
+elapsed time for k point: 0.15189599990844727
+solve_kpoint (0,0.3,0.3):
+Solving for bands 1 to 5...
+    linmin: converged after 3 iterations.
+    iteration    1: trace = 1.088280401374256 (4.02051% change)
+    linmin: converged after 3 iterations.
+    iteration    2: trace = 1.078010970443577 (0.948112% change)
+    linmin: converged after 3 iterations.
+    iteration    3: trace = 1.076220634077292 (0.166216% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 1.075125249537515 (0.101832% change)
+    linmin: converged after 4 iterations.
+    iteration    5: trace = 1.074889551135506 (0.0219253% change)
+    linmin: converged after 4 iterations.
+    iteration    6: trace = 1.074611848683758 (0.0258388% change)
+    linmin: converged after 4 iterations.
+    iteration    7: trace = 1.074338176994089 (0.0254703% change)
+    linmin: converged after 4 iterations.
+    iteration    8: trace = 1.074133650204876 (0.0190393% change)
+    linmin: converged after 4 iterations.
+    iteration    9: trace = 1.074051685256615 (0.00763109% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 1.074030125942728 (0.00200731% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 1.07402091463118 (0.000857644% change)
+    linmin: converged after 2 iterations.
+    iteration   12: trace = 1.074017633495712 (0.000305501% change)
+    linmin: converged after 2 iterations.
+    iteration   13: trace = 1.074015950258636 (0.000156724% change)
+    linmin: converged after 2 iterations.
+    iteration   14: trace = 1.074015130850986 (7.62938e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   15: trace = 1.074014408976728 (6.72127e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   16: trace = 1.074013024255871 (0.00012893% change)
+    large trace change predicted (0.000398301%)
+    linmin: converged after 3 iterations.
+    iteration   17: trace = 1.074008747402581 (0.000398213% change)
+    large trace change predicted (0.00446186%)
+    linmin: converged after 5 iterations.
+    iteration   18: trace = 1.073967030453366 (0.0038843% change)
+    near maximum in trace
+    linmin: converged after 7 iterations.
+    iteration   19: trace = 1.073874220309907 (0.00864218% change)
+    linmin: converged after 4 iterations.
+    iteration   20: trace = 1.073841881148794 (0.00301149% change)
+    linmin: converged after 4 iterations.
+    iteration   21: trace = 1.073816628115981 (0.00235168% change)
+    linmin: converged after 3 iterations.
+    iteration   22: trace = 1.073794862203737 (0.00202699% change)
+    linmin: converged after 3 iterations.
+    iteration   23: trace = 1.07377505283856 (0.00184482% change)
+    linmin: converged after 4 iterations.
+    iteration   24: trace = 1.073756224568686 (0.00175348% change)
+    linmin: converged after 4 iterations.
+    iteration   25: trace = 1.073737634092788 (0.00173136% change)
+    linmin: converged after 3 iterations.
+    iteration   26: trace = 1.073718748488417 (0.00175888% change)
+    linmin: converged after 3 iterations.
+    iteration   27: trace = 1.073699330318599 (0.00180851% change)
+    linmin: converged after 3 iterations.
+    iteration   28: trace = 1.073679530708975 (0.00184407% change)
+    linmin: converged after 3 iterations.
+    iteration   29: trace = 1.073659872954553 (0.00183089% change)
+    linmin: converged after 3 iterations.
+    iteration   30: trace = 1.073641029830363 (0.00175505% change)
+    linmin: converged after 3 iterations.
+    iteration   31: trace = 1.073623470023142 (0.00163555% change)
+    linmin: converged after 3 iterations.
+    iteration   32: trace = 1.073607226894031 (0.00151294% change)
+    linmin: converged after 3 iterations.
+    iteration   33: trace = 1.073591933883925 (0.00142446% change)
+    linmin: converged after 3 iterations.
+    iteration   34: trace = 1.073577020258685 (0.00138914% change)
+    linmin: converged after 3 iterations.
+    iteration   35: trace = 1.073561914106327 (0.0014071% change)
+    linmin: converged after 3 iterations.
+    iteration   36: trace = 1.07354619979251 (0.00146377% change)
+    linmin: converged after 3 iterations.
+    iteration   37: trace = 1.073529722596752 (0.00153485% change)
+    linmin: converged after 3 iterations.
+    iteration   38: trace = 1.073512605220691 (0.00159451% change)
+    linmin: converged after 3 iterations.
+    iteration   39: trace = 1.073495135527478 (0.00162735% change)
+    linmin: converged after 3 iterations.
+    iteration   40: trace = 1.073477562262147 (0.00163703% change)
+    linmin: converged after 3 iterations.
+    iteration   41: trace = 1.073459921066671 (0.00164338% change)
+    linmin: converged after 3 iterations.
+    iteration   42: trace = 1.073441987004633 (0.00167069% change)
+    linmin: converged after 3 iterations.
+    iteration   43: trace = 1.073423346564195 (0.00173653% change)
+    linmin: converged after 3 iterations.
+    iteration   44: trace = 1.073403528530869 (0.00184626% change)
+    linmin: converged after 3 iterations.
+    iteration   45: trace = 1.073382146387992 (0.00199201% change)
+    linmin: converged after 3 iterations.
+    iteration   46: trace = 1.073359020102138 (0.00215455% change)
+    linmin: converged after 3 iterations.
+    iteration   47: trace = 1.07333423951045 (0.00230872% change)
+    linmin: converged after 3 iterations.
+    iteration   48: trace = 1.073308136700936 (0.00243197% change)
+    linmin: converged after 3 iterations.
+    iteration   49: trace = 1.0732811753794 (0.00251201% change)
+    linmin: converged after 3 iterations.
+    iteration   50: trace = 1.073253815220602 (0.00254924% change)
+    linmin: converged after 3 iterations.
+    iteration   51: trace = 1.07322641904732 (0.00255266% change)
+    linmin: converged after 3 iterations.
+    iteration   52: trace = 1.073199232178308 (0.00253322% change)
+    linmin: converged after 3 iterations.
+    iteration   53: trace = 1.073172416896004 (0.00249866% change)
+    linmin: converged after 3 iterations.
+    iteration   54: trace = 1.07314610524902 (0.00245179% change)
+    linmin: converged after 3 iterations.
+    iteration   55: trace = 1.073120439851589 (0.00239163% change)
+    linmin: converged after 3 iterations.
+    iteration   56: trace = 1.073095588558884 (0.00231582% change)
+    linmin: converged after 3 iterations.
+    iteration   57: trace = 1.073071733648552 (0.00222302% change)
+    linmin: converged after 3 iterations.
+    iteration   58: trace = 1.073049045643241 (0.00211433% change)
+    linmin: converged after 3 iterations.
+    iteration   59: trace = 1.073027655290629 (0.00199344% change)
+    linmin: converged after 3 iterations.
+    iteration   60: trace = 1.073007634856716 (0.00186581% change)
+    linmin: converged after 3 iterations.
+    iteration   61: trace = 1.072988993861144 (0.00173728% change)
+    linmin: converged after 3 iterations.
+    iteration   62: trace = 1.072971687969992 (0.00161288% change)
+    linmin: converged after 3 iterations.
+    iteration   63: trace = 1.072955635700395 (0.00149607% change)
+    linmin: converged after 3 iterations.
+    iteration   64: trace = 1.072940736725897 (0.0013886% change)
+    linmin: converged after 3 iterations.
+    iteration   65: trace = 1.07292688701117 (0.00129083% change)
+    linmin: converged after 3 iterations.
+    iteration   66: trace = 1.072913988296648 (0.00120221% change)
+    linmin: converged after 3 iterations.
+    iteration   67: trace = 1.072901951559996 (0.00112188% change)
+    linmin: converged after 3 iterations.
+    iteration   68: trace = 1.072890695589786 (0.00104912% change)
+    linmin: converged after 3 iterations.
+    iteration   69: trace = 1.072880142649316 (0.000983604% change)
+    resetting CG direction...
+    large trace change predicted (0.0584451%)
+    linmin: converged after 2 iterations.
+    iteration   70: trace = 1.072253328449831 (0.0584406% change)
+    linmin: converged after 3 iterations.
+    iteration   71: trace = 1.071327761706767 (0.0863571% change)
+    linmin: converged after 4 iterations.
+    iteration   72: trace = 1.070433176372241 (0.0835374% change)
+    linmin: converged after 4 iterations.
+    iteration   73: trace = 1.069837346659613 (0.055678% change)
+    linmin: converged after 4 iterations.
+    iteration   74: trace = 1.069655159223607 (0.0170309% change)
+    linmin: converged after 2 iterations.
+    iteration   75: trace = 1.069593814258556 (0.00573519% change)
+    linmin: converged after 2 iterations.
+    iteration   76: trace = 1.069578249855309 (0.00145518% change)
+    linmin: converged after 2 iterations.
+    iteration   77: trace = 1.069570508253221 (0.000723802% change)
+    linmin: converged after 2 iterations.
+    iteration   78: trace = 1.069568650453621 (0.000173696% change)
+    linmin: converged after 2 iterations.
+    iteration   79: trace = 1.069567806137835 (7.89399e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   80: trace = 1.06956731641149 (4.57873e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   81: trace = 1.069566855628883 (4.30812e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   82: trace = 1.0695666130913 (2.26762e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   83: trace = 1.069566340378522 (2.54975e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   84: trace = 1.069566154418736 (1.73865e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   85: trace = 1.069566029743337 (1.16566e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   86: trace = 1.06956593714055 (8.65798e-06% change)
+Finished solving for bands 1 to 5 after 86 iterations.
+freqs:, 19, 0, 0.3, 0.3, 0.6, 0.271029, 0.271988, 0.54694, 0.547286, 0.568741
+elapsed time for k point: 0.8193714618682861
+solve_kpoint (0,0.4,0.4):
+Solving for bands 1 to 5...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 1.096926738232209 (4.89945% change)
+    linmin: converged after 3 iterations.
+    iteration    2: trace = 1.082613483101855 (1.31342% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 1.079781149490471 (0.261963% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 1.077398872067666 (0.22087% change)
+    linmin: converged after 4 iterations.
+    iteration    5: trace = 1.076481620553627 (0.085172% change)
+    linmin: converged after 4 iterations.
+    iteration    6: trace = 1.075009483312875 (0.136848% change)
+    linmin: converged after 4 iterations.
+    iteration    7: trace = 1.074308052036941 (0.0652701% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 1.074039364556223 (0.0250134% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 1.073965838935213 (0.00684594% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 1.073952218452704 (0.00126825% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 1.07394875276751 (0.000322704% change)
+    linmin: converged after 2 iterations.
+    iteration   12: trace = 1.073947937272609 (7.59343e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   13: trace = 1.073947635137059 (2.81332e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   14: trace = 1.073947430095992 (1.90923e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   15: trace = 1.073947298230753 (1.22786e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   16: trace = 1.073947209948517 (8.22035e-06% change)
+Finished solving for bands 1 to 5 after 16 iterations.
+freqs:, 20, 0, 0.4, 0.4, 0.8, 0.343862, 0.344966, 0.517995, 0.519047, 0.546787
+elapsed time for k point: 0.14046144485473633
+solve_kpoint (0,0.5,0.5):
+Solving for bands 1 to 5...
+    linmin: converged after 3 iterations.
+    iteration    1: trace = 1.09392427079197 (5.36547% change)
+    linmin: converged after 3 iterations.
+    iteration    2: trace = 1.078461582821554 (1.42357% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 1.076316971590696 (0.199056% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 1.075202330223062 (0.103614% change)
+    linmin: converged after 2 iterations.
+    iteration    5: trace = 1.075031327884979 (0.0159055% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 1.074955666553946 (0.00703831% change)
+    linmin: converged after 4 iterations.
+    iteration    7: trace = 1.074898939116529 (0.00527733% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 1.074868444779479 (0.00283699% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 1.074856323494431 (0.00112771% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 1.074853986577969 (0.000217417% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 1.074853389700443 (5.5531e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   12: trace = 1.074853223662102 (1.54475e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   13: trace = 1.074853168475421 (5.13435e-06% change)
+Finished solving for bands 1 to 5 after 13 iterations.
+freqs:, 21, 0, 0.5, 0.5, 1, 0.38015, 0.381243, 0.495263, 0.496788, 0.541211
+elapsed time for k point: 0.10627412796020508
+solve_kpoint (0.05,0.55,0.5):
+Solving for bands 1 to 5...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 1.078793024401204 (0.894582% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 1.075269911111713 (0.327113% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 1.073671230412618 (0.148788% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 1.073109213087315 (0.0523591% change)
+    linmin: converged after 4 iterations.
+    iteration    5: trace = 1.072811562426469 (0.0277411% change)
+    linmin: converged after 4 iterations.
+    iteration    6: trace = 1.072616916513358 (0.0181452% change)
+    linmin: converged after 4 iterations.
+    iteration    7: trace = 1.072476803364431 (0.0130636% change)
+    linmin: converged after 4 iterations.
+    iteration    8: trace = 1.072421880215525 (0.00512128% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 1.072391518518778 (0.00283117% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 1.072382774672953 (0.000815363% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 1.072378331563606 (0.000414322% change)
+    linmin: converged after 2 iterations.
+    iteration   12: trace = 1.072376132025804 (0.000205109% change)
+    linmin: converged after 2 iterations.
+    iteration   13: trace = 1.072375183080834 (8.849e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   14: trace = 1.072374618977034 (5.26032e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   15: trace = 1.072374210295703 (3.81099e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   16: trace = 1.072373399737912 (7.55854e-05% change)
+    large trace change predicted (0.000189277%)
+    linmin: converged after 2 iterations.
+    iteration   17: trace = 1.072371370015387 (0.000189274% change)
+    linmin: converged after 2 iterations.
+    iteration   18: trace = 1.072367447934328 (0.00036574% change)
+    linmin: converged after 4 iterations.
+    iteration   19: trace = 1.072361631680848 (0.000542377% change)
+    linmin: converged after 4 iterations.
+    iteration   20: trace = 1.072355451323584 (0.000576333% change)
+    linmin: converged after 4 iterations.
+    iteration   21: trace = 1.072345448334358 (0.00093281% change)
+    linmin: converged after 3 iterations.
+    iteration   22: trace = 1.072328552077761 (0.00157565% change)
+    linmin: converged after 4 iterations.
+    iteration   23: trace = 1.072311580346888 (0.00158271% change)
+    linmin: converged after 4 iterations.
+    iteration   24: trace = 1.072300975937768 (0.000988935% change)
+    linmin: converged after 3 iterations.
+    iteration   25: trace = 1.072297395357731 (0.000333916% change)
+    linmin: converged after 2 iterations.
+    iteration   26: trace = 1.072296412334235 (9.16746e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   27: trace = 1.072296137826914 (2.56e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   28: trace = 1.072296054580118 (7.76341e-06% change)
+Finished solving for bands 1 to 5 after 28 iterations.
+freqs:, 22, 0.05, 0.55, 0.5, 1.00499, 0.381309, 0.382411, 0.495948, 0.497425, 0.535972
+elapsed time for k point: 0.3784646987915039
+solve_kpoint (0.1,0.6,0.5):
+Solving for bands 1 to 5...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 1.07339929591476 (0.802383% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 1.070909331137525 (0.232239% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 1.069940182815499 (0.0905387% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 1.069552271359991 (0.036262% change)
+    linmin: converged after 4 iterations.
+    iteration    5: trace = 1.069330264841495 (0.0207591% change)
+    linmin: converged after 4 iterations.
+    iteration    6: trace = 1.069162161095258 (0.0157217% change)
+    linmin: converged after 4 iterations.
+    iteration    7: trace = 1.069052847413697 (0.0102248% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 1.069016039610931 (0.00344309% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 1.068992922528982 (0.00216249% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 1.068983882112697 (0.000845698% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 1.068978646811143 (0.000489747% change)
+    linmin: converged after 2 iterations.
+    iteration   12: trace = 1.068976520213209 (0.000198938% change)
+    linmin: converged after 2 iterations.
+    iteration   13: trace = 1.068975910828197 (5.70064e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   14: trace = 1.068975685135665 (2.1113e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   15: trace = 1.068975602436043 (7.73634e-06% change)
+Finished solving for bands 1 to 5 after 15 iterations.
+freqs:, 23, 0.1, 0.6, 0.5, 1.0198, 0.384516, 0.385642, 0.497116, 0.498376, 0.526212
+elapsed time for k point: 0.20332574844360352
+solve_kpoint (0.15,0.65,0.5):
+Solving for bands 1 to 5...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 1.072098071354496 (0.746346% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 1.069742602280762 (0.219948% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 1.068697226723325 (0.0977699% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 1.067866123153692 (0.0777982% change)
+    linmin: converged after 4 iterations.
+    iteration    5: trace = 1.067246617442746 (0.0580303% change)
+    linmin: converged after 4 iterations.
+    iteration    6: trace = 1.066729141720946 (0.0484987% change)
+    linmin: converged after 4 iterations.
+    iteration    7: trace = 1.066527116544832 (0.0189405% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 1.066478207046188 (0.00458597% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 1.066448678317574 (0.00276885% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 1.066435686860864 (0.00121821% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 1.066427883461608 (0.00073173% change)
+    linmin: converged after 2 iterations.
+    iteration   12: trace = 1.066425069652195 (0.000263854% change)
+    linmin: converged after 2 iterations.
+    iteration   13: trace = 1.066424311848402 (7.10602e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   14: trace = 1.066423979369668 (3.1177e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   15: trace = 1.066423800765377 (1.6748e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   16: trace = 1.066423655716022 (1.36015e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   17: trace = 1.066423561343275 (8.84946e-06% change)
+Finished solving for bands 1 to 5 after 17 iterations.
+freqs:, 24, 0.15, 0.65, 0.5, 1.04403, 0.388899, 0.39006, 0.495493, 0.496211, 0.520861
+elapsed time for k point: 0.1572704315185547
+solve_kpoint (0.2,0.7,0.5):
+Solving for bands 1 to 5...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 1.069792515963887 (0.695836% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 1.067533372998151 (0.211399% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 1.066563588457967 (0.0908848% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 1.065689310903585 (0.0820051% change)
+    linmin: converged after 4 iterations.
+    iteration    5: trace = 1.065181437716615 (0.0476681% change)
+    linmin: converged after 4 iterations.
+    iteration    6: trace = 1.064841895414458 (0.0318816% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 1.064739216042669 (0.00964315% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 1.064720975983875 (0.00171312% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 1.06471238834175 (0.000806566% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 1.06470873748621 (0.000342897% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 1.064706014435079 (0.000255756% change)
+    linmin: converged after 2 iterations.
+    iteration   12: trace = 1.064704584526527 (0.000134301% change)
+    linmin: converged after 2 iterations.
+    iteration   13: trace = 1.064704093839917 (4.60867e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   14: trace = 1.064703828681238 (2.49045e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   15: trace = 1.064703653978093 (1.64086e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   16: trace = 1.064703495613459 (1.48741e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   17: trace = 1.064703392344799 (9.69929e-06% change)
+Finished solving for bands 1 to 5 after 17 iterations.
+freqs:, 25, 0.2, 0.7, 0.5, 1.07703, 0.392891, 0.394091, 0.490499, 0.490808, 0.523021
+elapsed time for k point: 0.1623547077178955
+solve_kpoint (0.25,0.75,0.5):
+Solving for bands 1 to 5...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 1.071009710516194 (0.62546% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 1.068993303688815 (0.188449% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 1.068140345102975 (0.0798227% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 1.06717774009128 (0.0901603% change)
+    linmin: converged after 4 iterations.
+    iteration    5: trace = 1.06652579141679 (0.0611096% change)
+    linmin: converged after 4 iterations.
+    iteration    6: trace = 1.06594425085524 (0.0545415% change)
+    linmin: converged after 4 iterations.
+    iteration    7: trace = 1.065737945671492 (0.0193561% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 1.065664199097657 (0.00692001% change)
+    linmin: converged after 4 iterations.
+    iteration    9: trace = 1.065600817420302 (0.0059478% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 1.065560787926651 (0.00375659% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 1.065535229756959 (0.00239859% change)
+    linmin: converged after 2 iterations.
+    iteration   12: trace = 1.065527639695294 (0.000712326% change)
+    linmin: converged after 2 iterations.
+    iteration   13: trace = 1.065525629723286 (0.000188636% change)
+    linmin: converged after 2 iterations.
+    iteration   14: trace = 1.065524680209655 (8.91123e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   15: trace = 1.065524121959101 (5.23921e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   16: trace = 1.065523699284936 (3.96682e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   17: trace = 1.065523471908577 (2.13394e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   18: trace = 1.065523336777263 (1.26822e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   19: trace = 1.065523156849836 (1.68863e-05% change)
+    large trace change predicted (3.49264e-05%)
+    linmin: converged after 2 iterations.
+    iteration   20: trace = 1.065522784693875 (3.49271e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   21: trace = 1.065522072506823 (6.68392e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   22: trace = 1.065521347460873 (6.80461e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   23: trace = 1.065520773349066 (5.38809e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   24: trace = 1.06551993367801 (7.88038e-05% change)
+    large trace change predicted (0.000223346%)
+    linmin: converged after 3 iterations.
+    iteration   25: trace = 1.06551755627328 (0.000223122% change)
+    large trace change predicted (0.00113163%)
+    linmin: converged after 3 iterations.
+    iteration   26: trace = 1.065505919708161 (0.00109211% change)
+    large trace change predicted (0.00375061%)
+    linmin: converged after 4 iterations.
+    iteration   27: trace = 1.065472954564356 (0.0030939% change)
+    linmin: converged after 4 iterations.
+    iteration   28: trace = 1.06544099196427 (0.0029999% change)
+    linmin: converged after 3 iterations.
+    iteration   29: trace = 1.065422797961235 (0.00170766% change)
+    linmin: converged after 3 iterations.
+    iteration   30: trace = 1.06541438554878 (0.000789588% change)
+    linmin: converged after 3 iterations.
+    iteration   31: trace = 1.065409254246775 (0.000481626% change)
+    linmin: converged after 3 iterations.
+    iteration   32: trace = 1.065405917205141 (0.000313217% change)
+    linmin: converged after 3 iterations.
+    iteration   33: trace = 1.065404270674078 (0.000154545% change)
+    linmin: converged after 2 iterations.
+    iteration   34: trace = 1.065403599499889 (6.29972e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   35: trace = 1.065403362715572 (2.22248e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   36: trace = 1.065403255297899 (1.00823e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   37: trace = 1.065403163180818 (8.64622e-06% change)
+Finished solving for bands 1 to 5 after 37 iterations.
+freqs:, 26, 0.25, 0.75, 0.5, 1.11803, 0.394551, 0.395772, 0.487945, 0.488132, 0.526056
+elapsed time for k point: 0.4191756248474121
+solve_kpoint (0.275,0.75,0.475):
+Solving for bands 1 to 5...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 1.065972059011849 (0.503557% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 1.063758271218139 (0.207894% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 1.062604547367853 (0.108516% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 1.061025557822296 (0.148707% change)
+    linmin: converged after 4 iterations.
+    iteration    5: trace = 1.06003098621744 (0.0937808% change)
+    linmin: converged after 4 iterations.
+    iteration    6: trace = 1.059033341634843 (0.094159% change)
+    linmin: converged after 4 iterations.
+    iteration    7: trace = 1.058664999882958 (0.034787% change)
+    linmin: converged after 4 iterations.
+    iteration    8: trace = 1.058397112361957 (0.0253075% change)
+    linmin: converged after 4 iterations.
+    iteration    9: trace = 1.058081710203029 (0.0298044% change)
+    linmin: converged after 4 iterations.
+    iteration   10: trace = 1.057869051927557 (0.0201005% change)
+    linmin: converged after 4 iterations.
+    iteration   11: trace = 1.05775050491895 (0.0112068% change)
+    linmin: converged after 4 iterations.
+    iteration   12: trace = 1.057700119881217 (0.00476353% change)
+    linmin: converged after 4 iterations.
+    iteration   13: trace = 1.057652458257029 (0.00450626% change)
+    linmin: converged after 4 iterations.
+    iteration   14: trace = 1.057605620321783 (0.00442858% change)
+    linmin: converged after 4 iterations.
+    iteration   15: trace = 1.057576388393795 (0.00276401% change)
+    linmin: converged after 2 iterations.
+    iteration   16: trace = 1.05756199211145 (0.00136126% change)
+    linmin: converged after 2 iterations.
+    iteration   17: trace = 1.057555561562361 (0.000608056% change)
+    linmin: converged after 2 iterations.
+    iteration   18: trace = 1.05755081211328 (0.000449098% change)
+    linmin: converged after 2 iterations.
+    iteration   19: trace = 1.05754774460233 (0.000290058% change)
+    linmin: converged after 2 iterations.
+    iteration   20: trace = 1.057546261465366 (0.000140243% change)
+    linmin: converged after 2 iterations.
+    iteration   21: trace = 1.057545667539865 (5.61607e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   22: trace = 1.057545455279028 (2.00711e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   23: trace = 1.057545351447713 (9.81814e-06% change)
+Finished solving for bands 1 to 5 after 23 iterations.
+freqs:, 27, 0.275, 0.75, 0.475, 1.09772, 0.391745, 0.39651, 0.484446, 0.491809, 0.5199
+elapsed time for k point: 0.23588299751281738
+solve_kpoint (0.3,0.75,0.45):
+Solving for bands 1 to 5...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 1.051263567393517 (0.453525% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 1.049734829633969 (0.145525% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 1.04926436704192 (0.0448273% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 1.048963416255634 (0.0286862% change)
+    linmin: converged after 2 iterations.
+    iteration    5: trace = 1.0488427550066 (0.0115036% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 1.04877246630562 (0.00670177% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 1.048748925085068 (0.00224467% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 1.048744587809005 (0.000413568% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 1.048741975175147 (0.00024912% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 1.048740250346497 (0.000164467% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 1.048738774840169 (0.000140693% change)
+    linmin: converged after 2 iterations.
+    iteration   12: trace = 1.048738142556832 (6.02899e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   13: trace = 1.048737954105986 (1.79693e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   14: trace = 1.048737881642796 (6.90956e-06% change)
+Finished solving for bands 1 to 5 after 14 iterations.
+freqs:, 28, 0.3, 0.75, 0.45, 1.08167, 0.387217, 0.396766, 0.481876, 0.494898, 0.514052
+elapsed time for k point: 0.16417384147644043
+solve_kpoint (0.325,0.75,0.425):
+Solving for bands 1 to 5...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 1.043730926948646 (0.402906% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 1.042615658606235 (0.106911% change)
+    linmin: converged after 4 iterations.
+    iteration    3: trace = 1.042310909251484 (0.0292336% change)
+    linmin: converged after 4 iterations.
+    iteration    4: trace = 1.042172722612991 (0.0132586% change)
+    linmin: converged after 2 iterations.
+    iteration    5: trace = 1.04211589043967 (0.00545339% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 1.042085821544801 (0.00288541% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 1.042070851079265 (0.0014366% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 1.042066836364001 (0.000385264% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 1.042063126192197 (0.00035604% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 1.042059921263828 (0.000307557% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 1.042057071262012 (0.000273497% change)
+    linmin: converged after 2 iterations.
+    iteration   12: trace = 1.042055874597275 (0.000114837% change)
+    linmin: converged after 2 iterations.
+    iteration   13: trace = 1.04205554213034 (3.19049e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   14: trace = 1.042055430933918 (1.06709e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   15: trace = 1.042055389683124 (3.9586e-06% change)
+Finished solving for bands 1 to 5 after 15 iterations.
+freqs:, 29, 0.325, 0.75, 0.425, 1.07005, 0.383285, 0.396393, 0.480245, 0.4979, 0.509392
+elapsed time for k point: 0.18271327018737793
+solve_kpoint (0.35,0.75,0.4):
+Solving for bands 1 to 5...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 1.040584462905274 (0.36751% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 1.039723361651454 (0.0827859% change)
+    linmin: converged after 2 iterations.
+    iteration    3: trace = 1.039502187576656 (0.0212747% change)
+    linmin: converged after 2 iterations.
+    iteration    4: trace = 1.039431188787348 (0.00683031% change)
+    linmin: converged after 2 iterations.
+    iteration    5: trace = 1.039403092549253 (0.00270308% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 1.039389773537481 (0.00128142% change)
+    linmin: converged after 2 iterations.
+    iteration    7: trace = 1.039378371535492 (0.001097% change)
+    linmin: converged after 2 iterations.
+    iteration    8: trace = 1.039373020320586 (0.000514849% change)
+    linmin: converged after 2 iterations.
+    iteration    9: trace = 1.039366117192858 (0.000664165% change)
+    linmin: converged after 2 iterations.
+    iteration   10: trace = 1.039359164195353 (0.000668967% change)
+    linmin: converged after 2 iterations.
+    iteration   11: trace = 1.039351769065989 (0.000711511% change)
+    linmin: converged after 2 iterations.
+    iteration   12: trace = 1.039347932744232 (0.000369108% change)
+    linmin: converged after 2 iterations.
+    iteration   13: trace = 1.039346770378023 (0.000111836% change)
+    linmin: converged after 2 iterations.
+    iteration   14: trace = 1.039346409238944 (3.47467e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   15: trace = 1.039346300689092 (1.0444e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   16: trace = 1.03934624055499 (5.78576e-06% change)
+Finished solving for bands 1 to 5 after 16 iterations.
+freqs:, 30, 0.35, 0.75, 0.4, 1.06301, 0.380687, 0.395955, 0.479389, 0.501411, 0.506376
+elapsed time for k point: 0.1250903606414795
+solve_kpoint (0.375,0.75,0.375):
+Solving for bands 1 to 5...
+    linmin: converged after 4 iterations.
+    iteration    1: trace = 1.042609376981212 (0.346482% change)
+    linmin: converged after 4 iterations.
+    iteration    2: trace = 1.041878576817754 (0.070118% change)
+    linmin: converged after 2 iterations.
+    iteration    3: trace = 1.04169228055837 (0.0178824% change)
+    linmin: converged after 2 iterations.
+    iteration    4: trace = 1.041643721084109 (0.0046617% change)
+    linmin: converged after 2 iterations.
+    iteration    5: trace = 1.041624284731841 (0.00186595% change)
+    linmin: converged after 2 iterations.
+    iteration    6: trace = 1.041612709614225 (0.00111126% change)
+    large trace change predicted (0.0024972%)
+    linmin: converged after 4 iterations.
+    iteration    7: trace = 1.041586681477759 (0.00249886% change)
+    linmin: converged after 4 iterations.
+    iteration    8: trace = 1.041550005446751 (0.00352123% change)
+    large trace change predicted (0.00883114%)
+    linmin: converged after 3 iterations.
+    iteration    9: trace = 1.041458276960379 (0.00880731% change)
+    linmin: converged after 4 iterations.
+    iteration   10: trace = 1.041332235710732 (0.0121031% change)
+    linmin: converged after 4 iterations.
+    iteration   11: trace = 1.041159316185563 (0.016607% change)
+    linmin: converged after 3 iterations.
+    iteration   12: trace = 1.041003242432839 (0.0149915% change)
+    linmin: converged after 3 iterations.
+    iteration   13: trace = 1.040925297276189 (0.00748778% change)
+    linmin: converged after 3 iterations.
+    iteration   14: trace = 1.040893632280696 (0.00304205% change)
+    linmin: converged after 2 iterations.
+    iteration   15: trace = 1.040884637673156 (0.000864127% change)
+    linmin: converged after 2 iterations.
+    iteration   16: trace = 1.04088163818193 (0.000288168% change)
+    linmin: converged after 2 iterations.
+    iteration   17: trace = 1.040880236654572 (0.000134648% change)
+    linmin: converged after 2 iterations.
+    iteration   18: trace = 1.040879353955761 (8.48031e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   19: trace = 1.040878645680464 (6.80459e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   20: trace = 1.04087826108588 (3.6949e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   21: trace = 1.040878070424734 (1.83173e-05% change)
+    linmin: converged after 2 iterations.
+    iteration   22: trace = 1.040877976132095 (9.05895e-06% change)
+Finished solving for bands 1 to 5 after 22 iterations.
+freqs:, 31, 0.375, 0.75, 0.375, 1.06066, 0.379784, 0.395774, 0.479133, 0.505118, 0.505264
+elapsed time for k point: 0.2866806983947754
+Band 1 range: 0.0 at Vector3<0.0, 0.0, 0.0> to 0.39455110771912805 at Vector3<0.25, 0.75, 0.5>
+Band 2 range: 0.0 at Vector3<0.0, 0.0, 0.0> to 0.39676580457429456 at Vector3<0.3, 0.75, 0.45>
+Band 3 range: 0.44237076818414445 at Vector3<0.0, 0.5, 0.0> to 0.5955899781324941 at Vector3<0.0, 0.0, 0.0>
+Band 4 range: 0.443555167492169 at Vector3<0.0, 0.5, 0.0> to 0.5958191426041095 at Vector3<0.0, 0.0, 0.0>
+Band 5 range: 0.5030136031238025 at Vector3<0.0, 0.6, 0.4> to 0.5958387104954164 at Vector3<0.0, 0.0, 0.0>
+Gap from band 2 (0.39676580457429456) to band 3 (0.44237076818414445), 10.869497311965718%
+total elapsed time for run: 6.638949394226074
+done
+real part range: 0.00321616 .. 26.3457
+real part range: 0.00626002 .. 23.9648
+real part range: 0.341422 .. 15.3395
+real part range: 0.0103016 .. 24.7206
+real part range: 0.00876879 .. 36.4389
+
+Elapsed run time = 63.3435 s
